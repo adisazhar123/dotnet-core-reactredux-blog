@@ -1,0 +1,42 @@
+.posts-header {
+    min-height: 200px;
+    background-color: #333333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.posts-title {
+    color: #ffffff;
+}
+
+.posts-title h1 {
+    margin-bottom: 20px;
+}
+
+.posts-body {
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.posts-body hr {
+    margin-top: 40px;
+}
+
+.posts-info {
+    line-height: 0.1em;
+}
+a.text .white, .text .white a {
+    text-decoration: none;
+}
+.text .white {
+    color: #fff !important;
+}
+
+.btn-favorite i:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.btn-favorite i {
+    font-size: 20px;
+}

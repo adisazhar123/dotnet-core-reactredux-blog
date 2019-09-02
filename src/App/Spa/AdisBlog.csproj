@@ -1,0 +1,102 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+    <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
+    <IsPackable>false</IsPackable>
+    <SpaRoot>ClientApp\</SpaRoot>
+    <DefaultItemExcludes>$(DefaultItemExcludes);$(SpaRoot)node_modules\**</DefaultItemExcludes>
+    <RootNamespace>AdisBlog</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.1.1" />
+    <PackageReference Include="BCrypt-Official" Version="0.1.109" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.0.0-preview6-19319-03" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils" Version="3.0.0-preview6-19319-03" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.2.0" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Don't publish the SPA source files, but do show them in the project files list -->
+    <Content Remove="$(SpaRoot)**" />
+    <Content Include="ClientApp\public\main.css" />
+    <Content Include="ClientApp\src\actions\authentication.js" />
+    <Content Include="ClientApp\src\actions\comments.js" />
+    <Content Include="ClientApp\src\actions\posts.js" />
+    <Content Include="ClientApp\src\actions\tags.js" />
+    <Content Include="ClientApp\src\actions\tinymce.js" />
+    <Content Include="ClientApp\src\actions\types.js" />
+    <Content Include="ClientApp\src\actions\users.js" />
+    <Content Include="ClientApp\src\actions\weather.js" />
+    <Content Include="ClientApp\src\apis\auth.js" />
+    <Content Include="ClientApp\src\apis\posts.js" />
+    <Content Include="ClientApp\src\apis\sampleService.js" />
+    <Content Include="ClientApp\src\components\Auth\Logout.js" />
+    <Content Include="ClientApp\src\components\Auth\RegisterForm.js" />
+    <Content Include="ClientApp\src\components\Auth\RegisterPage.js" />
+    <Content Include="ClientApp\src\components\Comments\CommentsForm.css" />
+    <Content Include="ClientApp\src\components\Comments\CommentsForm.js" />
+    <Content Include="ClientApp\src\components\Comments\CommentsList.js" />
+    <Content Include="ClientApp\src\components\Comments\ListComment.js" />
+    <Content Include="ClientApp\src\components\Auth\LoginForm.js" />
+    <Content Include="ClientApp\src\components\Auth\LoginPage.js" />
+    <Content Include="ClientApp\src\components\Hoc\Authentication.js" />
+    <Content Include="ClientApp\src\components\Posts\FavoritePostHeart.js" />
+    <Content Include="ClientApp\src\components\Posts\ListPost.js" />
+    <Content Include="ClientApp\src\components\Posts\NonFavoritePostHeart.js" />
+    <Content Include="ClientApp\src\components\Posts\PostsCreate.js" />
+    <Content Include="ClientApp\src\components\Posts\PostsForm.js" />
+    <Content Include="ClientApp\src\components\Posts\PostsList.js" />
+    <Content Include="ClientApp\src\components\Posts\PostsShow.css" />
+    <Content Include="ClientApp\src\components\Posts\PostsShow.js" />
+    <Content Include="ClientApp\src\components\Users\UsersList.js" />
+    <Content Include="ClientApp\src\components\Users\UsersShow.css" />
+    <Content Include="ClientApp\src\components\Users\UsersShow.js" />
+    <Content Include="ClientApp\src\configs\history.js" />
+    <Content Include="ClientApp\src\constants\accounts.js" />
+    <Content Include="ClientApp\src\reducers\auth.js" />
+    <Content Include="ClientApp\src\reducers\comments.js" />
+    <Content Include="ClientApp\src\reducers\errors.js" />
+    <Content Include="ClientApp\src\reducers\posts.js" />
+    <Content Include="ClientApp\src\reducers\tinymce.js" />
+    <Content Include="ClientApp\src\reducers\users.js" />
+    <Content Include="ClientApp\src\services\usersService.js" />
+    <None Remove="$(SpaRoot)**" />
+    <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Core\Persistence\UseCase" />
+  </ItemGroup>
+
+  <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
+    <!-- Ensure Node.js is installed -->
+    <Exec Command="node --version" ContinueOnError="true">
+      <Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
+    </Exec>
+    <Error Condition="'$(ErrorCode)' != '0'" Text="Node.js is required to build and run this project. To continue, please install Node.js from https://nodejs.org/, and then restart your command prompt or IDE." />
+    <Message Importance="high" Text="Restoring dependencies using 'npm'. This may take several minutes..." />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+  </Target>
+
+  <Target Name="PublishRunWebpack" AfterTargets="ComputeFilesToPublish">
+    <!-- As part of publishing, ensure the JS resources are freshly built in production mode -->
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm run build" />
+
+    <!-- Include the newly-built files in the publish output -->
+    <ItemGroup>
+      <DistFiles Include="$(SpaRoot)build\**; $(SpaRoot)build-ssr\**" />
+      <ResolvedFileToPublish Include="@(DistFiles->'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
+        <RelativePath>%(DistFiles.Identity)</RelativePath>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </ResolvedFileToPublish>
+    </ItemGroup>
+  </Target>
+
+</Project>

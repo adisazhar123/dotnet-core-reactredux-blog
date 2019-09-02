@@ -1,0 +1,2 @@
+1. Number of times article has been read (use Redis as counter, and make it an external service. Queue the request)
+2. Make a recommender system
