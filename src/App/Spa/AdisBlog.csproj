@@ -36,6 +36,7 @@
     <Content Include="ClientApp\src\apis\auth.js" />
     <Content Include="ClientApp\src\apis\posts.js" />
     <Content Include="ClientApp\src\apis\sampleService.js" />
+    <Content Include="ClientApp\src\apis\tags.js" />
     <Content Include="ClientApp\src\components\Auth\Logout.js" />
     <Content Include="ClientApp\src\components\Auth\RegisterForm.js" />
     <Content Include="ClientApp\src\components\Auth\RegisterPage.js" />
@@ -63,6 +64,7 @@
     <Content Include="ClientApp\src\reducers\comments.js" />
     <Content Include="ClientApp\src\reducers\errors.js" />
     <Content Include="ClientApp\src\reducers\posts.js" />
+    <Content Include="ClientApp\src\reducers\tags.js" />
     <Content Include="ClientApp\src\reducers\tinymce.js" />
     <Content Include="ClientApp\src\reducers\users.js" />
     <Content Include="ClientApp\src\services\usersService.js" />

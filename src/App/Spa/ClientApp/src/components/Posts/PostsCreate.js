@@ -6,6 +6,8 @@ import {
 } from 'reactstrap';
 
 import { createPost } from '../../actions/posts';
+import { getTagsByKeywords } from "../../actions/tags";
+
 import PostsForm from "./PostsForm";
 
 
@@ -14,9 +16,11 @@ class PostsCreate extends React.Component {
     this.props.createPost(postData);
   };
   
-  selectDataSource = (inputValue) => {
-    
+  searchSelect = (inputValue) => {
+    this.props.getTagsByKeywords(inputValue);
   };
+  
+  getTags = () =>  this.props.tags;
   
   render() {
     return (
@@ -24,7 +28,7 @@ class PostsCreate extends React.Component {
             <Container>
               <Card>
                   <CardBody>
-                      <PostsForm selectDataSource={this.selectDataSource} onSubmit={this.onSubmit} />
+                      <PostsForm searchTags={this.searchSelect} onSubmit={this.onSubmit} tags={this.getTags} />
                   </CardBody>
               </Card>
             </Container>
@@ -35,10 +39,16 @@ class PostsCreate extends React.Component {
 
 const mapStateToProps = (state) => {
   return {
-      posts: state.posts
+      posts: state.posts,
+      tags: Object.values(state.tags.listOfTags)
   }  
 };
 
+const mapDispatchToProps = {
+  createPost,
+  getTagsByKeywords  
+};
+
 export default connect(mapStateToProps,
-  { createPost }
+    mapDispatchToProps
 )(PostsCreate);

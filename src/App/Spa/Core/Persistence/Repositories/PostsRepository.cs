@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using AdisBlog.Core.Domain.Repositories;
 using AdisBlog.Core.Domain.ViewModels;
+using AdisBlog.Core.Persistence.Requests;
 using AdisBlog.Data;
 using AdisBlog.Models;
 using Microsoft.EntityFrameworkCore;
@@ -18,9 +19,20 @@ namespace AdisBlog.Core.Persistence.Repositories
         {
             _context = context;
         }
-        public async Task<Post> CreatePostAsync(Post post)
+        public async Task<Post> CreatePostAsync(Post post, List<SelectTag> tags)
         {
             await _context.Posts.AddAsync(post);
+            post.PostTags = new List<PostTag>();
+            
+            foreach (var tag in tags)
+            {
+                post.PostTags.Add(new PostTag
+                {
+                    PostId = post.Id,
+                    TagId = Guid.Parse(tag.Value)
+                });
+            }
+            
             await _context.SaveChangesAsync();
             
             return post;
@@ -60,6 +72,8 @@ namespace AdisBlog.Core.Persistence.Repositories
         {
             return await _context.Posts
                 .Include(p => p.User)
+                .Include(p => p.PostTags)
+                    .ThenInclude(pt => pt.Tag)
                 .SingleOrDefaultAsync(p => p.Id == postId);
         }
 

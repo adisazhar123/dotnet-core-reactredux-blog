@@ -30,6 +30,7 @@ namespace AdisBlog.Controllers
         [ProducesResponseType(StatusCodes.Status201Created)]
         public async Task<IActionResult> CreatePostAsync(Guid userId, [FromBody] CreatePost post)
         {
+//            return Json(post);
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
             var createdPost = await _repo.CreatePostAsync(
@@ -38,7 +39,8 @@ namespace AdisBlog.Controllers
                     Title = post.Title,
                     Body = post.Body,
                     UserId = userId
-                }
+                },
+                post.Tags
             );
 
             return Created(nameof(Route.PostsCreate), createdPost);

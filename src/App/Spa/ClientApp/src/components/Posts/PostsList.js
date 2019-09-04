@@ -3,7 +3,7 @@ import {connect} from "react-redux";
 
 import ListPost from './ListPost'
 import { deletePost, getPosts } from "../../actions/posts";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class PostsList extends React.Component {
 	constructor(props) {
@@ -12,12 +12,10 @@ class PostsList extends React.Component {
 	}
 	
 	componentDidMount() {
-		console.log('mounted again ok');
 		this.getPosts();
 	}
 	
 	componentDidUpdate(prevProps, prevState, snapshot) {
-		console.log('updated');
 		const prevPage = parseInt(prevProps.currentPage);
 		prevPage !== parseInt(this.props.currentPage) ? this.getPosts()
 			: null;
@@ -51,7 +49,6 @@ class PostsList extends React.Component {
 	
 	changePage = (page) => {
 		console.log(page.target.text);
-		// this.setState({ currentPage: parseInt(page.target.text) });
 	};
 	
 	renderPagination = () => {
@@ -64,7 +61,6 @@ class PostsList extends React.Component {
 	};
 	
 	render() {			
-		console.log("wkwkwkkw");
 		return (
 			<div>
 				{this.renderList()}		

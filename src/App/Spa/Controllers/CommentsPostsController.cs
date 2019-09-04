@@ -36,7 +36,7 @@ namespace AdisBlog.Controllers
         }
         
         [AllowAnonymous]
-        [HttpGet("posts/{postId}/comments")]
+        [HttpGet(Route.CommentsGet)]
         public IActionResult GetComments(Guid postId)
         {
             return Json(_repo.GetComments(postId));

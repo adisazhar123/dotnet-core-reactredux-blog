@@ -8,6 +8,11 @@ namespace AdisBlog.Routes
         public const string PostsGetSingle = "posts/{postId}";
         public const string CommentsCreate = "posts/{postId}/comments";
 
+        public const string CommentsGet = "posts/{postId}/comments";
+        
         public const string UsersRegister = "register";
+        public const string UsersLogin = "login";
+        public const string UsersLogout = "logout";
+        
     }
 }

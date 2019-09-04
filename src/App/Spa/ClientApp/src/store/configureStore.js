@@ -11,6 +11,7 @@ import authReducer from '../reducers/auth'
 import usersReducer from '../reducers/users'
 import tinyMceReducer from  '../reducers/tinymce'
 import errorsReducer from '../reducers/errors'
+import tagsReducer from '../reducers/tags'
 
 export default function configureStore (history, initialState) {
   const reducers = {
@@ -21,7 +22,8 @@ export default function configureStore (history, initialState) {
     auth: authReducer,
     users: usersReducer,
     tinyMce: tinyMceReducer,
-    errors: errorsReducer
+    errors: errorsReducer,
+    tags: tagsReducer
   };
 
   const middleware = [

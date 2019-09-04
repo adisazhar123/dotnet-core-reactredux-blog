@@ -50,8 +50,8 @@ class UsersShow extends React.Component {
 			<div className={'users-header mb-3'}>
 				<Container>
 					<div className="profile">
-						<h4>Adis Azhar</h4>
-						<Button>+ Follow AdisAzhar</Button>
+						<h4>{this.props.username}</h4>
+						<Button>+ Follow @{this.props.username}</Button>
 					</div>
 				</Container>
 			</div>
@@ -74,7 +74,7 @@ class UsersShow extends React.Component {
 			<Card className={'post mb-1'}>
 				<CardBody>
 					<div className="info">
-						<h5>Adis Azhar</h5>
+						<h5>{this.props.username}</h5>
 						<small>Wed Jul 31 2019</small>
 					</div>
 					<div className="post-body">

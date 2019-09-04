@@ -11,8 +11,9 @@ class ListPost extends React.Component {
 	
 	renderBody = () => {
 		const { post } = this.props;
-		return this.bodyLength() > 100 ? post.body.slice(0, 100) + '...'
-			: post.body;
+		const body = post.body.replace(/<(.|\n)*?>/g, '');
+		return this.bodyLength() > 100 ? body.slice(0, 100) + '...'
+			: body;
 	};
 	
 	render() {
@@ -24,15 +25,11 @@ class ListPost extends React.Component {
 					<CardTitle>
 						<strong>{post.title}</strong>
 					</CardTitle>
-					<div dangerouslySetInnerHTML={{__html: this.renderBody() }} />
+					<p>{ this.renderBody() }</p>
 					<Link to={`/posts/${post.id}`}>Read more ...</Link>
 				</CardBody>
 			</Card>
 			
-				{/*<p>*/}
-				{/*	<Button color={"danger"} onClick={() => this.props.deletePost(post.id)}>Delete </Button>*/}
-				{/*	{post.title}					*/}
-				{/*</p>*/}
 			</div>
 		);
 	}

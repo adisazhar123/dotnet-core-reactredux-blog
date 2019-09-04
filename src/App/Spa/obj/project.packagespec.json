@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/adisazhar/projects/dotnet/ReactReduxAdisBlog/src/App/Spa/AdisBlog.csproj",
+    "projectUniqueName": "/home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/App/Spa/AdisBlog.csproj",
     "projectName": "AdisBlog",
-    "projectPath": "/home/adisazhar/projects/dotnet/ReactReduxAdisBlog/src/App/Spa/AdisBlog.csproj",
-    "outputPath": "/home/adisazhar/projects/dotnet/ReactReduxAdisBlog/src/App/Spa/obj/",
+    "projectPath": "/home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/App/Spa/AdisBlog.csproj",
+    "outputPath": "/home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/App/Spa/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/share/dotnet/sdk/NuGetFallbackFolder"

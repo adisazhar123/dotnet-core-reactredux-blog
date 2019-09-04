@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from "react-redux";
-import { Container } from "reactstrap";
+import {Badge, Container} from "reactstrap";
 
 import { getPost } from "../../actions/posts";
 import { createComment, getComments } from "../../actions/comments";
@@ -78,6 +78,18 @@ class PostsShow extends React.Component {
 			);
 	};
 	
+	renderPostTags = () => {
+		console.log(this.props.postTags);
+		const tags = this.props.posts.postTags;
+		if (! tags) return false;
+		
+		return (
+			<p>
+				{ tags.map(({tag}) => (<Badge color="warning" pill>{ tag.title }</Badge>) ) }
+			</p>
+		)
+	};
+	
 	renderInfo = (postInfo) => {
 		postInfo = postInfo === null ? 'Loading ...' : postInfo;
 		
@@ -91,6 +103,7 @@ class PostsShow extends React.Component {
 						{username}
 					</Link>
 				</p>
+				{this.renderPostTags()}
 				<small className={'text text-timestamp white'}>{timeStamp}</small>
 			</div>
 		)
@@ -126,7 +139,7 @@ class PostsShow extends React.Component {
 
 const mapStateToProps = (state, { match }) => {
 	return {
-		posts: state.posts.listOfPosts[match.params.postId],
+		posts: state.posts.listOfPosts[match.params.postId] || {},
 		comments: state.comments.listOfComments,
 		tinyMceValue: state.tinyMce.value,
 		errors: state.errors.message,
@@ -134,7 +147,7 @@ const mapStateToProps = (state, { match }) => {
 			user: state.posts.user,
 		},
 		favoritePostId: state.posts.favoritePostId,
-		isFavorite: state.posts.isFavorite
+		isFavorite: state.posts.isFavorite,
 	}
 };
 

@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AdisBlog.Controllers
 {
+    [Route("api")]
     public class AccountController : Controller
     {
         private readonly AccountService _accountService;
@@ -17,7 +18,7 @@ namespace AdisBlog.Controllers
             _accountService = accountService;
         }
         
-        [HttpPost("api/login")]
+        [HttpPost(Route.UsersLogin)]
         public IActionResult Login([FromBody] Login login)
         {
             var loginResponse = _accountService.Login(login);
@@ -30,18 +31,17 @@ namespace AdisBlog.Controllers
         }
         
         [Authorize(Roles = "user,admin")]
-        [HttpGet("api/users")]
+        [HttpGet("users")]
         public IActionResult Users()
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
             return Json(new {
-                Users =_accountService.Users(),
-                userId = userId
+                Users =_accountService.Users(), userId
             });
         }
         
-        [HttpPost("api/" + Route.UsersRegister)]
+        [HttpPost(Route.UsersRegister)]
         public async Task<IActionResult> Register([FromBody] Register register)
         {
             if (!ModelState.IsValid)

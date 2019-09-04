@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
     <e p="$USER_HOME$/.Rider2019.1/system/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.Rider2019.1/system/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_ReactReduxAdisBlog.-919006048.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.1/system/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_ReactReduxAdisBlog.-2134102999.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
-      <e p=".git/info/exclude" t="IncludeRecursive" />
       <e p="ReactReduxAdisBlog.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="src" t="Include">
         <e p="App" t="Include">
           <e p="Spa" t="IncludeRecursive">
+            <e p=".gitignore" t="Include" />
             <e p="AdisBlog.csproj" t="IncludeRecursive" />
             <e p="ClientApp" t="Include">
               <e p=".gitignore" t="Include" />
@@ -70,6 +69,7 @@
                   <e p="auth.js" t="Include" />
                   <e p="posts.js" t="Include" />
                   <e p="sampleService.js" t="Include" />
+                  <e p="tags.js" t="Include" />
                 </e>
                 <e p="components" t="Include">
                   <e p="Auth" t="Include">
@@ -122,6 +122,7 @@
                   <e p="comments.js" t="Include" />
                   <e p="errors.js" t="Include" />
                   <e p="posts.js" t="Include" />
+                  <e p="tags.js" t="Include" />
                   <e p="tinymce.js" t="Include" />
                   <e p="users.js" t="Include" />
                 </e>
@@ -140,9 +141,9 @@
               <e p="AccountController.cs" t="Include" />
               <e p="CommentsPostsController.cs" t="Include" />
               <e p="PostsController.cs" t="Include" />
-              <e p="PostsTagsController.cs" t="Include" />
               <e p="PostsUsersController.cs" t="Include" />
               <e p="SampleDataController.cs" t="Include" />
+              <e p="TagsController.cs" t="Include" />
             </e>
             <e p="Core" t="Include">
               <e p="Domain" t="Include">
@@ -183,6 +184,7 @@
                   <e p="CommentsPostsRepository.cs" t="Include" />
                   <e p="FavoritePostsRepository.cs" t="Include" />
                   <e p="PostsRepository.cs" t="Include" />
+                  <e p="TagsRepository.cs" t="Include" />
                   <e p="UsersRepository.cs" t="Include" />
                 </e>
                 <e p="Requests" t="Include">

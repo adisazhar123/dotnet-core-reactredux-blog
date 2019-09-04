@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/home/adisazhar/projects/dotnet/ReactReduxAdisBlog/src/Services/Posts/Posts.API/Posts.API.csproj": {}
+    "/home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/Services/Posts/Posts.API/Posts.API.csproj": {}
   },
   "projects": {
-    "/home/adisazhar/projects/dotnet/ReactReduxAdisBlog/src/Services/Posts/Posts.API/Posts.API.csproj": {
+    "/home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/Services/Posts/Posts.API/Posts.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/adisazhar/projects/dotnet/ReactReduxAdisBlog/src/Services/Posts/Posts.API/Posts.API.csproj",
+        "projectUniqueName": "/home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/Services/Posts/Posts.API/Posts.API.csproj",
         "projectName": "Posts.API",
-        "projectPath": "/home/adisazhar/projects/dotnet/ReactReduxAdisBlog/src/Services/Posts/Posts.API/Posts.API.csproj",
-        "packagesPath": "/home/adisazhar/.nuget/packages/",
-        "outputPath": "/home/adisazhar/projects/dotnet/ReactReduxAdisBlog/src/Services/Posts/Posts.API/obj/",
+        "projectPath": "/home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/Services/Posts/Posts.API/Posts.API.csproj",
+        "packagesPath": "/home/adis/.nuget/packages/",
+        "outputPath": "/home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/Services/Posts/Posts.API/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/adisazhar/.nuget/NuGet/NuGet.Config"
+          "/home/adis/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"

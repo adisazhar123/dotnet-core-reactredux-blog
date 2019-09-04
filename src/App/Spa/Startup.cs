@@ -63,6 +63,7 @@ namespace AdisBlog
             services.AddScoped<CommentsPostsRepository>();
             services.AddScoped<UsersRepository>();
             services.AddScoped<FavoritePostsRepository>();
+            services.AddScoped<TagsRepository>();
 
         }
 

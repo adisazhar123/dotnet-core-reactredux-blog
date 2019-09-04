@@ -41,7 +41,11 @@ namespace AdisBlog.Core.Persistence.Services
             var user = _usersRepository.FindUserLogin(login.Username);
             if (user == null)
             {
-                return null;
+                return new UsersLoginDto()
+                {
+                    Success = false,
+                    Message = "Account not found. Wrong credentials.",
+                };
             }
             
             bool validPassword = BCrypt.Net.BCrypt.Verify(login.Password, user.Password);
