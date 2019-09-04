@@ -7,5 +7,7 @@ namespace AdisBlog.Routes
         public const string PostsDelete = "posts/{postId}";
         public const string PostsGetSingle = "posts/{postId}";
         public const string CommentsCreate = "posts/{postId}/comments";
+
+        public const string UsersRegister = "register";
     }
 }

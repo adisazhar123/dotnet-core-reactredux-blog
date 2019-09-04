@@ -5,6 +5,7 @@
     <e p="$USER_HOME$/.Rider2019.1/system/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/.Rider2019.1/system/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_ReactReduxAdisBlog.-919006048.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p=".git/info/exclude" t="IncludeRecursive" />
       <e p="ReactReduxAdisBlog.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="src" t="Include">
@@ -169,6 +170,7 @@
               <e p="Persistence" t="Include">
                 <e p="Dtos" t="Include">
                   <e p="FavoritePostDto.cs" t="Include" />
+                  <e p="RegisterDto.cs" t="Include" />
                   <e p="UsersLoginDto.cs" t="Include" />
                 </e>
                 <e p="Extensions" t="Include">
@@ -188,6 +190,7 @@
                   <e p="CreateFavoritePost.cs" t="Include" />
                   <e p="CreatePost.cs" t="Include" />
                   <e p="Login.cs" t="Include" />
+                  <e p="Register.cs" t="Include" />
                 </e>
                 <e p="Services" t="Include">
                   <e p="AccountService.cs" t="Include" />

@@ -31,7 +31,25 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75abbd43-0bec-408f-9205-64b5427a5c13" name="Default Changelist" comment="" />
+    <list default="true" id="75abbd43-0bec-408f-9205-64b5427a5c13" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ReactReduxAdisBlog/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReactReduxAdisBlog/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ReactReduxAdisBlog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReactReduxAdisBlog/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/authentication.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/authentication.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Auth/RegisterPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Auth/RegisterPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/errors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/errors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/Controllers/AccountController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/UsersRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/UsersRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Services/AccountService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Services/AccountService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/Routes/Route.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/Routes/Route.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/bin/Debug/netcoreapp2.2/AdisBlog.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/bin/Debug/netcoreapp2.2/AdisBlog.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/bin/Debug/netcoreapp2.2/AdisBlog.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/bin/Debug/netcoreapp2.2/AdisBlog.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.pdb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,86 +57,187 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Auth/LoginPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsForm.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="819">
-              <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsShow.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="103" column="12" lean-forward="true" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsCreate.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Auth/RegisterPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Auth/RegisterForm.js">
+        <entry file="file://$PROJECT_DIR$/src/App/Spa/Controllers/AccountController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+            <state relative-caret-position="569">
+              <caret line="51" column="50" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
+                <marker date="1567587576107" expanded="true" signature="6:278" ph="..." />
+                <marker date="1567587576107" expanded="true" signature="310:1629" ph="{...}" />
+                <marker date="1567587576107" expanded="true" signature="360:1627" ph="{...}" />
+                <marker date="1567587576107" expanded="true" signature="487:553" ph="{...}" />
+                <marker date="1567587576107" expanded="true" signature="653:884" ph="{...}" />
+                <marker date="1567587576107" expanded="true" signature="766:833" ph="{...}" />
+                <marker date="1567587576107" expanded="true" signature="1003:1223" ph="{...}" />
+                <marker date="1567587576107" expanded="true" signature="1116:1211" ph="{...}" />
+                <marker date="1567587576107" expanded="true" signature="1361:1621" ph="{...}" />
+                <marker date="1567587576107" expanded="true" signature="1408:1483" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/Spa/Routes/Route.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding>
+                <marker date="1567585531367" expanded="true" signature="25:440" ph="{...}" />
+                <marker date="1567585531367" expanded="true" signature="57:438" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Requests/Register.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <folding>
+                <marker date="1567585613455" expanded="true" signature="90:260" ph="{...}" />
+                <marker date="1567585613455" expanded="true" signature="118:258" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Dtos/RegisterDto.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+              <folding>
+                <marker date="1567585459187" expanded="true" signature="64:234" ph="{...}" />
+                <marker date="1567585459187" expanded="true" signature="95:232" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/Spa/Controllers/PostsController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+              <folding>
+                <marker date="1564932882078" expanded="false" signature="6:394" ph="..." />
+                <marker date="1564932882078" expanded="true" signature="426:3305" ph="{...}" />
+                <marker date="1564932882078" expanded="true" signature="531:3303" ph="{...}" />
+                <marker date="1564932882078" expanded="true" signature="765:875" ph="{...}" />
+                <marker date="1564932882078" expanded="true" signature="1081:1503" ph="{...}" />
+                <marker date="1564932882078" expanded="true" signature="1276:1409" ph="{...}" />
+                <marker date="1564932882078" expanded="true" signature="1705:1820" ph="{...}" />
+                <marker date="1564932882078" expanded="true" signature="1934:2038" ph="{...}" />
+                <marker date="1564932882078" expanded="true" signature="2174:2715" ph="{...}" />
+                <marker date="1564932882078" expanded="true" signature="2329:2524" ph="{...}" />
+                <marker date="1564932882078" expanded="true" signature="2580:2668" ph="{...}" />
+                <marker date="1564932882078" expanded="true" signature="2857:3297" ph="{...}" />
+                <marker date="1564932882078" expanded="true" signature="2904:2979" ph="{...}" />
+                <marker date="1564932882078" expanded="true" signature="3035:3141" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/Spa/Controllers/CommentsPostsController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+              <folding>
+                <marker date="1565016267412" expanded="false" signature="6:251" ph="..." />
+                <marker date="1565016267412" expanded="true" signature="283:1321" ph="{...}" />
+                <marker date="1565016267412" expanded="true" signature="396:1319" ph="{...}" />
+                <marker date="1565016267412" expanded="true" signature="536:582" ph="{...}" />
+                <marker date="1565016267412" expanded="true" signature="739:1108" ph="{...}" />
+                <marker date="1565016267412" expanded="true" signature="884:968" ph="{...}" />
+                <marker date="1565016267412" expanded="true" signature="1241:1313" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Services/AccountService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="85" column="47" lean-forward="true" selection-start-line="85" selection-start-column="47" selection-end-line="85" selection-end-column="47" />
+              <folding>
+                <marker date="1567585360983" expanded="false" signature="6:394" ph="..." />
+                <marker date="1567585360983" expanded="true" signature="440:3344" ph="{...}" />
+                <marker date="1567585360983" expanded="true" signature="474:3342" ph="{...}" />
+                <marker date="1567585360983" expanded="true" signature="672:954" ph="{...}" />
+                <marker date="1567585360983" expanded="true" signature="674:944" ph="/* new User { Id = 1, Username = &quot;fred&quot;, Password = &quot;123&quot;, Role = &quot;Administrator&quot;}, ... */" />
+                <marker date="1567585360983" expanded="true" signature="1049:1161" ph="{...}" />
+                <marker date="1567585360983" expanded="true" signature="1203:1250" ph="{...}" />
+                <marker date="1567585360983" expanded="true" signature="1299:3181" ph="{...}" />
+                <marker date="1567585360983" expanded="true" signature="1410:1467" ph="{...}" />
+                <marker date="1567585360983" expanded="true" signature="1602:1815" ph="{...}" />
+                <marker date="1567585360983" expanded="true" signature="1674:1800" ph="{...}" />
+                <marker date="1567585360983" expanded="true" signature="2066:2777" ph="{...}" />
+                <marker date="1567585360983" expanded="true" signature="2468:2623" ph="{...}" />
+                <marker date="1567585360983" expanded="true" signature="3039:3170" ph="{...}" />
+                <marker date="1567585360983" expanded="true" signature="3249:3336" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/UsersRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="82" column="13" lean-forward="true" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+              <folding>
+                <marker date="1567586579607" expanded="true" signature="6:300" ph="..." />
+                <marker date="1567586579607" expanded="true" signature="350:2917" ph="{...}" />
+                <marker date="1567586579607" expanded="true" signature="385:2915" ph="{...}" />
+                <marker date="1567586579607" expanded="true" signature="563:645" ph="{...}" />
+                <marker date="1567586579607" expanded="true" signature="696:796" ph="{...}" />
+                <marker date="1567586579607" expanded="true" signature="869:1200" ph="{...}" />
+                <marker date="1567586579607" expanded="true" signature="1023:1121" ph="{...}" />
+                <marker date="1567586579607" expanded="true" signature="1295:1950" ph="{...}" />
+                <marker date="1567586579607" expanded="true" signature="1711:1880" ph="{...}" />
+                <marker date="1567586579607" expanded="true" signature="2023:2909" ph="{...}" />
+                <marker date="1567586579607" expanded="true" signature="2449:2590" ph="{...}" />
+                <marker date="1567586579607" expanded="true" signature="2761:2898" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/User.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+              <folding>
+                <marker date="1567586579655" expanded="true" signature="60:426" ph="{...}" />
+                <marker date="1567586579655" expanded="true" signature="96:424" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/PostsRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+              <folding>
+                <marker date="1564634229162" expanded="false" signature="6:257" ph="..." />
+                <marker date="1564634229162" expanded="true" signature="307:2436" ph="{...}" />
+                <marker date="1564634229162" expanded="true" signature="361:2434" ph="{...}" />
+                <marker date="1564634229162" expanded="true" signature="481:533" ph="{...}" />
+                <marker date="1564634229162" expanded="true" signature="592:746" ph="{...}" />
+                <marker date="1564634229162" expanded="true" signature="822:1721" ph="{...}" />
+                <marker date="1564634229162" expanded="true" signature="1778:1975" ph="{...}" />
+                <marker date="1564634229162" expanded="true" signature="2034:2192" ph="{...}" />
+                <marker date="1564634229162" expanded="true" signature="2266:2428" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -162,6 +281,9 @@
       <find>mt-3</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/Post.cs" root0="FORCE_HIGHLIGHTING" />
@@ -174,12 +296,15 @@
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Core/Domain/ViewModels/GetUserPostsVm.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/UsersRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/PostsRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/CommentsPostsRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2D506C52-CF4B-4BDB-B896-80B6E2C92982/c7/b2295164/EntityEntry.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Requests/CreatePost.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Data/BlogsDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Services/AccountService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87E8CE02-3EE4-404D-9082-6C8A5038171A/60/77643611/ModelStateDictionary.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/Tag.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Dtos/RegisterDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Requests/Register.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Routes/Route.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/PostTag.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Pages/Error.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
@@ -205,11 +330,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Core/Domain/Models/User.cs" />
-        <option value="$PROJECT_DIR$/src/Services/Posts/Posts.API/Controllers/ValuesController.cs" />
-        <option value="$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/User.cs" />
-        <option value="$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/FavoritePost.cs" />
-        <option value="$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/BaseModel.cs" />
         <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/public/index.html" />
         <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsShow.css" />
         <option value="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Requests/CreateFavoritePost.cs" />
@@ -222,13 +342,11 @@
         <option value="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/FavoritePostsRepository.cs" />
         <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/posts.js" />
         <option value="$PROJECT_DIR$/src/App/Spa/Controllers/PostsController.cs" />
-        <option value="$PROJECT_DIR$/src/App/Spa/Routes/Route.cs" />
         <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsShow.js" />
         <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Comments/CommentsList.js" />
         <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/posts.js" />
         <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Comments/CommentsForm.js" />
         <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Hoc/Authentication.js" />
-        <option value="$PROJECT_DIR$/src/App/Spa/Controllers/AccountController.cs" />
         <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/services/usersService.js" />
         <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/users.js" />
         <option value="$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/PostTag.cs" />
@@ -241,7 +359,6 @@
         <option value="$PROJECT_DIR$/src/App/Spa/Core/Domain/ViewModels/GetTagsByQueryVm.cs" />
         <option value="$PROJECT_DIR$/src/App/Spa/Controllers/PostsTagsController.cs" />
         <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/tags.js" />
-        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/types.js" />
         <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/users.js" />
         <option value="$PROJECT_DIR$/src/App/Spa/Startup.cs" />
         <option value="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Dtos/FavoritePostDto.cs" />
@@ -249,13 +366,21 @@
         <option value="$PROJECT_DIR$/src/App/Spa/Controllers/PostsUsersController.cs" />
         <option value="$PROJECT_DIR$/src/App/Spa/Core/Domain/ViewModels/GetUserFavoritePostsVm.cs" />
         <option value="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Mappings/FavoritePostsProfile.cs" />
-        <option value="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/UsersRepository.cs" />
         <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Users/UsersShow.js" />
-        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/errors.js" />
         <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsForm.js" />
         <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/App.js" />
-        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Auth/RegisterPage.js" />
         <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Auth/RegisterForm.js" />
+        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/types.js" />
+        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Auth/RegisterPage.js" />
+        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/errors.js" />
+        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/authentication.js" />
+        <option value="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Services/AccountService.cs" />
+        <option value="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Dtos/RegisterDto.cs" />
+        <option value="$PROJECT_DIR$/src/App/Spa/Routes/Route.cs" />
+        <option value="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Requests/Register.cs" />
+        <option value="$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/User.cs" />
+        <option value="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/UsersRepository.cs" />
+        <option value="$PROJECT_DIR$/src/App/Spa/Controllers/AccountController.cs" />
       </list>
     </option>
   </component>
@@ -263,11 +388,13 @@
     <option name="width" value="960" />
     <option name="height" value="1051" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -299,45 +426,72 @@
               <item name="src" type="24d0babc:SolutionExplorerModelNode" />
               <item name="App" type="24d0babc:SolutionExplorerModelNode" />
               <item name="AdisBlog" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ReactReduxAdisBlog" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="App" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="AdisBlog" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ReactReduxAdisBlog" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="App" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="AdisBlog" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="components" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ReactReduxAdisBlog" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="App" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="AdisBlog" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="components" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Posts" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ReactReduxAdisBlog" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="App" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="AdisBlog" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ReactReduxAdisBlog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="App" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="AdisBlog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Core" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ReactReduxAdisBlog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="App" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="AdisBlog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Persistence" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ReactReduxAdisBlog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="App" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="AdisBlog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Persistence" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dtos" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ReactReduxAdisBlog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="App" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="AdisBlog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Persistence" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Repositories" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ReactReduxAdisBlog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="App" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="AdisBlog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Persistence" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Requests" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ReactReduxAdisBlog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="App" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="AdisBlog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Persistence" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ReactReduxAdisBlog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="App" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="AdisBlog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Routes" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -345,13 +499,14 @@
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="FileSystemExplorer" />
-      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -470,11 +625,13 @@
       <workItem from="1565101752567" duration="6528000" />
       <workItem from="1565597344174" duration="329000" />
       <workItem from="1567389391331" duration="3589000" />
+      <workItem from="1567480778409" duration="599000" />
+      <workItem from="1567577619580" duration="4919000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100461000" />
+    <option name="totallyTimeSpent" value="105979000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -487,8 +644,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1052" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18676628" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16808964" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -562,142 +720,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/dc/dbb3ca64/ControllerBase.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="86" column="22" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Controllers/PostsController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-333">
-          <caret line="48" column="55" lean-forward="true" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
-          <folding>
-            <marker date="1564932882078" expanded="false" signature="6:394" ph="..." />
-            <marker date="1564932882078" expanded="true" signature="531:3303" ph="{...}" />
-            <marker date="1564932882078" expanded="true" signature="765:875" ph="{...}" />
-            <marker date="1564932882078" expanded="true" signature="1081:1503" ph="{...}" />
-            <marker date="1564932882078" expanded="true" signature="1276:1409" ph="{...}" />
-            <marker date="1564932882078" expanded="true" signature="1705:1820" ph="{...}" />
-            <marker date="1564932882078" expanded="true" signature="1934:2038" ph="{...}" />
-            <marker date="1564932882078" expanded="true" signature="2174:2715" ph="{...}" />
-            <marker date="1564932882078" expanded="true" signature="2329:2524" ph="{...}" />
-            <marker date="1564932882078" expanded="true" signature="2580:2668" ph="{...}" />
-            <marker date="1564932882078" expanded="true" signature="2857:3297" ph="{...}" />
-            <marker date="1564932882078" expanded="true" signature="2904:2979" ph="{...}" />
-            <marker date="1564932882078" expanded="true" signature="3035:3141" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Routes/Route.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding>
-            <marker date="1564932884038" expanded="true" signature="25:383" ph="{...}" />
-            <marker date="1564932884038" expanded="true" signature="57:381" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Comments/CommentsList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Comments/CommentsForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Hoc/Authentication.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Counter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/NavMenu.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/BaseModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <marker date="1564561137474" expanded="false" signature="6:65" ph="..." />
-            <marker date="1564561137474" expanded="true" signature="92:353" ph="{...}" />
-            <marker date="1564561137474" expanded="true" signature="121:351" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Services/AccountService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-          <folding>
-            <marker date="1564470655310" expanded="false" signature="6:364" ph="..." />
-            <marker date="1564470655310" expanded="true" signature="410:3159" ph="{...}" />
-            <marker date="1564470655310" expanded="true" signature="444:3157" ph="{...}" />
-            <marker date="1564470655310" expanded="true" signature="642:924" ph="{...}" />
-            <marker date="1564470655310" expanded="true" signature="644:914" ph="/* new User { Id = 1, Username = &quot;fred&quot;, Password = &quot;123&quot;, Role = &quot;Administrator&quot;}, ... */" />
-            <marker date="1564470655310" expanded="true" signature="1019:1131" ph="{...}" />
-            <marker date="1564470655310" expanded="true" signature="1173:1220" ph="{...}" />
-            <marker date="1564470655310" expanded="true" signature="1269:3151" ph="{...}" />
-            <marker date="1564470655310" expanded="true" signature="1380:1437" ph="{...}" />
-            <marker date="1564470655310" expanded="true" signature="1572:1785" ph="{...}" />
-            <marker date="1564470655310" expanded="true" signature="1644:1770" ph="{...}" />
-            <marker date="1564470655310" expanded="true" signature="2036:2747" ph="{...}" />
-            <marker date="1564470655310" expanded="true" signature="2438:2593" ph="{...}" />
-            <marker date="1564470655310" expanded="true" signature="3009:3140" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/FavoritePost.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding>
-            <marker date="1564561055076" expanded="true" signature="40:219" ph="{...}" />
-            <marker date="1564561055076" expanded="true" signature="84:217" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/Tag.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <marker date="1565013985020" expanded="true" signature="60:212" ph="{...}" />
-            <marker date="1565013985020" expanded="true" signature="95:210" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/PostTag.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -718,22 +740,6 @@
     <entry file="file://$PROJECT_DIR$/src/App/Spa/Properties/launchSettings.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Controllers/CommentsPostsController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-end-line="13" />
-          <folding>
-            <marker date="1565016267412" expanded="false" signature="6:251" ph="..." />
-            <marker date="1565016267412" expanded="true" signature="283:1321" ph="{...}" />
-            <marker date="1565016267412" expanded="true" signature="396:1319" ph="{...}" />
-            <marker date="1565016267412" expanded="true" signature="536:582" ph="{...}" />
-            <marker date="1565016267412" expanded="true" signature="739:1108" ph="{...}" />
-            <marker date="1565016267412" expanded="true" signature="884:968" ph="{...}" />
-            <marker date="1565016267412" expanded="true" signature="1241:1313" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Domain/ViewModels/GetTagsByQueryVm.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -741,15 +747,6 @@
           <folding>
             <marker date="1565022590865" expanded="true" signature="56:188" ph="{...}" />
             <marker date="1565022590865" expanded="true" signature="92:186" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/comments.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -869,13 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/types.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Mappings/FavoritePostsProfile.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -921,24 +911,6 @@
           <caret line="139" column="16" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="16" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/UsersRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <marker date="1565102251523" expanded="true" signature="6:258" ph="..." />
-            <marker date="1565102251523" expanded="true" signature="308:1916" ph="{...}" />
-            <marker date="1565102251523" expanded="true" signature="343:1914" ph="{...}" />
-            <marker date="1565102251523" expanded="true" signature="521:603" ph="{...}" />
-            <marker date="1565102251523" expanded="true" signature="654:754" ph="{...}" />
-            <marker date="1565102251523" expanded="true" signature="827:1158" ph="{...}" />
-            <marker date="1565102251523" expanded="true" signature="981:1079" ph="{...}" />
-            <marker date="1565102251523" expanded="true" signature="1253:1908" ph="{...}" />
-            <marker date="1565102251523" expanded="true" signature="1669:1838" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -990,9 +962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/apis/auth.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -1013,13 +982,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/errors.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/posts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="696">
@@ -1030,27 +992,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Controllers/AccountController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-          <folding>
-            <marker date="1565011396605" expanded="true" signature="6:187" ph="..." />
-            <marker date="1565011396605" expanded="true" signature="219:1140" ph="{...}" />
-            <marker date="1565011396605" expanded="true" signature="269:1138" ph="{...}" />
-            <marker date="1565011396605" expanded="true" signature="396:462" ph="{...}" />
-            <marker date="1565011396605" expanded="true" signature="562:793" ph="{...}" />
-            <marker date="1565011396605" expanded="true" signature="675:742" ph="{...}" />
-            <marker date="1565011396605" expanded="true" signature="912:1132" ph="{...}" />
-            <marker date="1565011396605" expanded="true" signature="1025:1120" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Auth/LoginPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        <state relative-caret-position="336">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -1059,7 +1004,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
+        <state relative-caret-position="315">
           <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -1067,30 +1012,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsForm.js">
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/apis/auth.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/types.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+        <state relative-caret-position="231">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Auth/RegisterForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsShow.js">
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/errors.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="103" column="12" lean-forward="true" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
+        <state relative-caret-position="336">
+          <caret line="16" column="90" lean-forward="true" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Comments/ListComment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsCreate.js">
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/auth.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/comments.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        <state>
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/authentication.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -1099,20 +1072,230 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Auth/RegisterPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="768">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Auth/RegisterForm.js">
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Comments/CommentsList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        <state relative-caret-position="273">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsCreate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsShow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="821">
+          <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/PostsRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <marker date="1564634229162" expanded="false" signature="6:257" ph="..." />
+            <marker date="1564634229162" expanded="true" signature="307:2436" ph="{...}" />
+            <marker date="1564634229162" expanded="true" signature="361:2434" ph="{...}" />
+            <marker date="1564634229162" expanded="true" signature="481:533" ph="{...}" />
+            <marker date="1564634229162" expanded="true" signature="592:746" ph="{...}" />
+            <marker date="1564634229162" expanded="true" signature="822:1721" ph="{...}" />
+            <marker date="1564634229162" expanded="true" signature="1778:1975" ph="{...}" />
+            <marker date="1564634229162" expanded="true" signature="2034:2192" ph="{...}" />
+            <marker date="1564634229162" expanded="true" signature="2266:2428" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/CommentsPostsRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <marker date="1564470655042" expanded="false" signature="6:177" ph="..." />
+            <marker date="1564470655042" expanded="true" signature="227:895" ph="{...}" />
+            <marker date="1564470655042" expanded="true" signature="270:893" ph="{...}" />
+            <marker date="1564470655042" expanded="true" signature="398:450" ph="{...}" />
+            <marker date="1564470655042" expanded="true" signature="534:685" ph="{...}" />
+            <marker date="1564470655042" expanded="true" signature="747:887" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/Controllers/PostsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <marker date="1564932882078" expanded="false" signature="6:394" ph="..." />
+            <marker date="1564932882078" expanded="true" signature="426:3305" ph="{...}" />
+            <marker date="1564932882078" expanded="true" signature="531:3303" ph="{...}" />
+            <marker date="1564932882078" expanded="true" signature="765:875" ph="{...}" />
+            <marker date="1564932882078" expanded="true" signature="1081:1503" ph="{...}" />
+            <marker date="1564932882078" expanded="true" signature="1276:1409" ph="{...}" />
+            <marker date="1564932882078" expanded="true" signature="1705:1820" ph="{...}" />
+            <marker date="1564932882078" expanded="true" signature="1934:2038" ph="{...}" />
+            <marker date="1564932882078" expanded="true" signature="2174:2715" ph="{...}" />
+            <marker date="1564932882078" expanded="true" signature="2329:2524" ph="{...}" />
+            <marker date="1564932882078" expanded="true" signature="2580:2668" ph="{...}" />
+            <marker date="1564932882078" expanded="true" signature="2857:3297" ph="{...}" />
+            <marker date="1564932882078" expanded="true" signature="2904:2979" ph="{...}" />
+            <marker date="1564932882078" expanded="true" signature="3035:3141" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/Routes/Route.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <marker date="1567585531367" expanded="true" signature="25:440" ph="{...}" />
+            <marker date="1567585531367" expanded="true" signature="57:438" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Requests/Register.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <marker date="1567585613455" expanded="true" signature="90:260" ph="{...}" />
+            <marker date="1567585613455" expanded="true" signature="118:258" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Dtos/RegisterDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding>
+            <marker date="1567585459187" expanded="true" signature="64:234" ph="{...}" />
+            <marker date="1567585459187" expanded="true" signature="95:232" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/Controllers/CommentsPostsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding>
+            <marker date="1565016267412" expanded="false" signature="6:251" ph="..." />
+            <marker date="1565016267412" expanded="true" signature="283:1321" ph="{...}" />
+            <marker date="1565016267412" expanded="true" signature="396:1319" ph="{...}" />
+            <marker date="1565016267412" expanded="true" signature="536:582" ph="{...}" />
+            <marker date="1565016267412" expanded="true" signature="739:1108" ph="{...}" />
+            <marker date="1565016267412" expanded="true" signature="884:968" ph="{...}" />
+            <marker date="1565016267412" expanded="true" signature="1241:1313" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Services/AccountService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="85" column="47" lean-forward="true" selection-start-line="85" selection-start-column="47" selection-end-line="85" selection-end-column="47" />
+          <folding>
+            <marker date="1567585360983" expanded="false" signature="6:394" ph="..." />
+            <marker date="1567585360983" expanded="true" signature="440:3344" ph="{...}" />
+            <marker date="1567585360983" expanded="true" signature="474:3342" ph="{...}" />
+            <marker date="1567585360983" expanded="true" signature="672:954" ph="{...}" />
+            <marker date="1567585360983" expanded="true" signature="674:944" ph="/* new User { Id = 1, Username = &quot;fred&quot;, Password = &quot;123&quot;, Role = &quot;Administrator&quot;}, ... */" />
+            <marker date="1567585360983" expanded="true" signature="1049:1161" ph="{...}" />
+            <marker date="1567585360983" expanded="true" signature="1203:1250" ph="{...}" />
+            <marker date="1567585360983" expanded="true" signature="1299:3181" ph="{...}" />
+            <marker date="1567585360983" expanded="true" signature="1410:1467" ph="{...}" />
+            <marker date="1567585360983" expanded="true" signature="1602:1815" ph="{...}" />
+            <marker date="1567585360983" expanded="true" signature="1674:1800" ph="{...}" />
+            <marker date="1567585360983" expanded="true" signature="2066:2777" ph="{...}" />
+            <marker date="1567585360983" expanded="true" signature="2468:2623" ph="{...}" />
+            <marker date="1567585360983" expanded="true" signature="3039:3170" ph="{...}" />
+            <marker date="1567585360983" expanded="true" signature="3249:3336" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/User.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <marker date="1567586579655" expanded="true" signature="60:426" ph="{...}" />
+            <marker date="1567586579655" expanded="true" signature="96:424" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/UsersRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="82" column="13" lean-forward="true" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+          <folding>
+            <marker date="1567586579607" expanded="true" signature="6:300" ph="..." />
+            <marker date="1567586579607" expanded="true" signature="350:2917" ph="{...}" />
+            <marker date="1567586579607" expanded="true" signature="385:2915" ph="{...}" />
+            <marker date="1567586579607" expanded="true" signature="563:645" ph="{...}" />
+            <marker date="1567586579607" expanded="true" signature="696:796" ph="{...}" />
+            <marker date="1567586579607" expanded="true" signature="869:1200" ph="{...}" />
+            <marker date="1567586579607" expanded="true" signature="1023:1121" ph="{...}" />
+            <marker date="1567586579607" expanded="true" signature="1295:1950" ph="{...}" />
+            <marker date="1567586579607" expanded="true" signature="1711:1880" ph="{...}" />
+            <marker date="1567586579607" expanded="true" signature="2023:2909" ph="{...}" />
+            <marker date="1567586579607" expanded="true" signature="2449:2590" ph="{...}" />
+            <marker date="1567586579607" expanded="true" signature="2761:2898" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/Controllers/AccountController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="51" column="50" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
+          <folding>
+            <marker date="1567587576107" expanded="true" signature="6:278" ph="..." />
+            <marker date="1567587576107" expanded="true" signature="310:1629" ph="{...}" />
+            <marker date="1567587576107" expanded="true" signature="360:1627" ph="{...}" />
+            <marker date="1567587576107" expanded="true" signature="487:553" ph="{...}" />
+            <marker date="1567587576107" expanded="true" signature="653:884" ph="{...}" />
+            <marker date="1567587576107" expanded="true" signature="766:833" ph="{...}" />
+            <marker date="1567587576107" expanded="true" signature="1003:1223" ph="{...}" />
+            <marker date="1567587576107" expanded="true" signature="1116:1211" ph="{...}" />
+            <marker date="1567587576107" expanded="true" signature="1361:1621" ph="{...}" />
+            <marker date="1567587576107" expanded="true" signature="1408:1483" ph="{...}" />
           </folding>
         </state>
       </provider>

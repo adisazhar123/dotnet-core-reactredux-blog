@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
+using System.Threading.Tasks;
 using AdisBlog.Core.Persistence.Dtos;
 using AdisBlog.Core.Persistence.Repositories;
 using AdisBlog.Core.Persistence.Requests;
@@ -78,6 +79,11 @@ namespace AdisBlog.Core.Persistence.Services
                 Message = "Logged in succesfully.",
                 UserId = user.Id
             };
+        }
+
+        public async Task<RegisterDto> Register(Register register)
+        {
+            return await _usersRepository.RegisterAsync(register);
         }
     }
 }

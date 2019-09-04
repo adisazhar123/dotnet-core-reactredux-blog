@@ -1,6 +1,9 @@
 using System.Security.Claims;
+using System.Threading.Tasks;
+using AdisBlog.Core.Persistence.Dtos;
 using AdisBlog.Core.Persistence.Requests;
 using AdisBlog.Core.Persistence.Services;
+using AdisBlog.Routes;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -36,6 +39,17 @@ namespace AdisBlog.Controllers
                 Users =_accountService.Users(),
                 userId = userId
             });
+        }
+        
+        [HttpPost("api/" + Route.UsersRegister)]
+        public async Task<IActionResult> Register([FromBody] Register register)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            var registerResponse = await _accountService.Register(register);
+            return Json(registerResponse.Message);
         }
     }
 }

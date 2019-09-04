@@ -3,6 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using AdisBlog.Core.Domain.ViewModels;
 using AdisBlog.Core.Persistence.Dtos;
+using AdisBlog.Core.Persistence.Requests;
 using AdisBlog.Data;
 using AdisBlog.Models;
 using AutoMapper;
@@ -57,6 +58,33 @@ namespace AdisBlog.Core.Persistence.Repositories
                 .ToListAsync();
 
             return posts;
+        }
+
+        public async Task<RegisterDto> RegisterAsync(Register register)
+        {
+            var user = await _context.Users
+                .SingleOrDefaultAsync(u => u.Username == register.Username);
+
+            if (user != null) return new RegisterDto{User = null, Success = false, Message = "An account with the specified username exist."};
+            
+            var hashedPassword = BCrypt.Net.BCrypt.HashPassword(register.Password);
+            
+            user = new User
+            {
+                Username = register.Username,
+                Password = hashedPassword,
+                Role = User.RoleUser
+            };
+            
+            await _context.Users.AddAsync(user);
+            await _context.SaveChangesAsync();
+            
+            return new RegisterDto
+            {
+                User = user,
+                Success = true,
+                Message = "Account registration successful."
+            };
         }
     }
 }

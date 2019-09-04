@@ -1,19 +1,36 @@
 import React from 'react'
 import { Container } from 'reactstrap'
+import { connect } from "react-redux";
+
+import { register } from '../../actions/authentication'
+
 import RegisterForm from "./RegisterForm";
 
-const registerAccount = (data) => {
-	console.log(data);
-};
 
-const RegisterPage = (props) => {
-	return (
-		<div id={'register'} className={'mt-3'}>
-			<Container>
-				<RegisterForm onSubmit={registerAccount} />
-			</Container>
-		</div>
-	);
-};
+class RegisterPage extends React.Component {
 
-export default RegisterPage;
+	registerAccount = (data) => {
+		console.log(data);
+		this.props.register(data);
+	};
+	
+	render() {
+		return (
+			<div id={'register'} className={'mt-3'}>
+				<Container>
+					<RegisterForm onSubmit={this.registerAccount} />
+				</Container>
+			</div>
+		);
+	}
+}
+
+// const mapStateToProps = (state) => {
+// 	return {
+//		
+// 	}
+// };
+
+export default connect(null, {
+	register
+})(RegisterPage);
