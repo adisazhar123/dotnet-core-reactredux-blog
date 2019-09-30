@@ -1,12 +1,10 @@
+using System;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using AdisBlog.Core.Domain.ViewModels;
 using AdisBlog.Core.Persistence.Repositories;
-using AdisBlog.Data;
-using AdisBlog.Models;
-using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace AdisBlog.Controllers
 {
@@ -14,18 +12,21 @@ namespace AdisBlog.Controllers
     public class PostsUsersController : Controller
     {
         private UsersRepository _repo;
-        private readonly IMapper _mapper;
         
-        public PostsUsersController(UsersRepository repo, IMapper mapper)
+        public PostsUsersController(UsersRepository repo)
         {
             _repo = repo;
-            _mapper = mapper;
         }
         
         [HttpGet("users/{userName}/posts")]
         public async Task<IActionResult> GetUserPosts(string username)
         {
             var posts = await _repo.GetUserPosts(username);
+            var myFollowings = User.Identity.IsAuthenticated ? await _repo.GetMyFollowingsAsync(Guid.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value)) : null;
+            if (myFollowings != null)
+            {
+                posts.IsFollowing = myFollowings.Any(f => f.FollowingUserId == posts.UserId);
+            }
             
             return Json(posts);
         }

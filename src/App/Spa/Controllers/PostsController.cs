@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using AdisBlog.Core.Domain.Repositories;
@@ -10,6 +11,7 @@ using AdisBlog.Routes;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Hosting;
 
 namespace AdisBlog.Controllers
 {
@@ -19,16 +21,27 @@ namespace AdisBlog.Controllers
     {
         private readonly IPostsRepository _repo;
         private readonly FavoritePostsRepository _favoritePostsRepository;
+        private readonly IHostingEnvironment _hostingEnvironment;
 
-        public PostsController(IPostsRepository repo, FavoritePostsRepository favoritePostsRepository)
+        public PostsController(IPostsRepository repo, FavoritePostsRepository favoritePostsRepository, IHostingEnvironment hostingEnvironment)
         {
             _repo = repo;
             _favoritePostsRepository = favoritePostsRepository;
+            _hostingEnvironment = hostingEnvironment;
+        }
+        
+        private string GetUniqueFileName(string fileName)
+        {
+            fileName = Path.GetFileName(fileName);
+            return  Path.GetFileNameWithoutExtension(fileName)
+                    + "_" 
+                    + Guid.NewGuid().ToString().Substring(0, 4) 
+                    + Path.GetExtension(fileName);
         }
         
         [HttpPost(Route.PostsCreate)]
         [ProducesResponseType(StatusCodes.Status201Created)]
-        public async Task<IActionResult> CreatePostAsync(Guid userId, [FromBody] CreatePost post)
+        public async Task<IActionResult> CreatePostAsync(Guid userId, [FromForm] CreatePost post)
         {
 //            return Json(post);
             if (!ModelState.IsValid)
@@ -42,6 +55,16 @@ namespace AdisBlog.Controllers
                 },
                 post.Tags
             );
+
+            if (post.CoverImage != null)
+            {
+                var uniqueFileName = GetUniqueFileName(post.CoverImage.FileName);
+                var uploads = Path.Combine(_hostingEnvironment.ContentRootPath, "Storage/Uploads");
+                var filePath = Path.Combine(uploads, uniqueFileName);
+                await post.CoverImage.CopyToAsync(new FileStream(filePath, FileMode.Create));
+                return Json(Url.Content(filePath));
+            }
+            
 
             return Created(nameof(Route.PostsCreate), createdPost);
         }

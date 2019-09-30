@@ -14,7 +14,7 @@ namespace AdisBlog.Data
         public DbSet<User> Users { get; set; }
         public DbSet<FavoritePost> FavoritePosts { get; set; }
         public DbSet<Tag> Tags { get; set; }
-        public DbSet<PostTag> PostTags { get; set; }
+        public DbSet<Following> Followings { get; set; }
 
         public BlogsDbContext(DbContextOptions<BlogsDbContext> options) : base(options)
         { }

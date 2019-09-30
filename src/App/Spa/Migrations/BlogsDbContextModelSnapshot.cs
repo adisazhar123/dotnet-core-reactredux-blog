@@ -67,6 +67,31 @@ namespace AdisBlog.Migrations
                     b.ToTable("favorite_posts");
                 });
 
+            modelBuilder.Entity("AdisBlog.Models.Following", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnName("id");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnName("created_at");
+
+                    b.Property<Guid>("FollowingUserId")
+                        .HasColumnName("following_user_id");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnName("updated_at");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnName("user_id");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("followings");
+                });
+
             modelBuilder.Entity("AdisBlog.Models.Post", b =>
                 {
                     b.Property<Guid>("Id")
@@ -76,6 +101,9 @@ namespace AdisBlog.Migrations
                     b.Property<string>("Body")
                         .IsRequired()
                         .HasColumnName("body");
+
+                    b.Property<string>("CoverImagePath")
+                        .HasColumnName("cover_image_path");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnName("created_at");
@@ -135,23 +163,23 @@ namespace AdisBlog.Migrations
                         new
                         {
                             Id = new Guid("0f8fad5b-d3cb-469f-a165-71267728950e"),
-                            CreatedAt = new DateTime(2019, 8, 5, 21, 16, 31, 410, DateTimeKind.Local).AddTicks(8351),
+                            CreatedAt = new DateTime(2019, 9, 13, 21, 10, 37, 525, DateTimeKind.Local).AddTicks(2761),
                             Title = "Computer Science",
-                            UpdatedAt = new DateTime(2019, 8, 5, 21, 16, 31, 410, DateTimeKind.Local).AddTicks(8365)
+                            UpdatedAt = new DateTime(2019, 9, 13, 21, 10, 37, 525, DateTimeKind.Local).AddTicks(2782)
                         },
                         new
                         {
                             Id = new Guid("0f8fad5b-d3cb-469f-a165-712677284194"),
-                            CreatedAt = new DateTime(2019, 8, 5, 21, 16, 31, 410, DateTimeKind.Local).AddTicks(8396),
+                            CreatedAt = new DateTime(2019, 9, 13, 21, 10, 37, 525, DateTimeKind.Local).AddTicks(2810),
                             Title = "Sports",
-                            UpdatedAt = new DateTime(2019, 8, 5, 21, 16, 31, 410, DateTimeKind.Local).AddTicks(8399)
+                            UpdatedAt = new DateTime(2019, 9, 13, 21, 10, 37, 525, DateTimeKind.Local).AddTicks(2812)
                         },
                         new
                         {
                             Id = new Guid("8914ad5b-d3cb-469f-a165-71267728950e"),
-                            CreatedAt = new DateTime(2019, 8, 5, 21, 16, 31, 410, DateTimeKind.Local).AddTicks(8408),
+                            CreatedAt = new DateTime(2019, 9, 13, 21, 10, 37, 525, DateTimeKind.Local).AddTicks(2820),
                             Title = "Lifestyle",
-                            UpdatedAt = new DateTime(2019, 8, 5, 21, 16, 31, 410, DateTimeKind.Local).AddTicks(8409)
+                            UpdatedAt = new DateTime(2019, 9, 13, 21, 10, 37, 525, DateTimeKind.Local).AddTicks(2821)
                         });
                 });
 
@@ -187,19 +215,19 @@ namespace AdisBlog.Migrations
                         new
                         {
                             Id = new Guid("0f8fad5b-d9cb-469f-a165-70867728950e"),
-                            CreatedAt = new DateTime(2019, 8, 5, 21, 16, 31, 299, DateTimeKind.Local).AddTicks(5388),
-                            Password = "$2a$10$KDruOWg2NqWpGqyYX93z7u.N/kvpgCcIwzT0X8hK2HejLxEiMyimO",
+                            CreatedAt = new DateTime(2019, 9, 13, 21, 10, 37, 422, DateTimeKind.Local).AddTicks(8287),
+                            Password = "$2a$10$IlHQbsNFDvsbdXQSdn2W.OGZ/AtjdysSusiOykl9aBNThRPGTimxW",
                             Role = "user",
-                            UpdatedAt = new DateTime(2019, 8, 5, 21, 16, 31, 299, DateTimeKind.Local).AddTicks(9931),
+                            UpdatedAt = new DateTime(2019, 9, 13, 21, 10, 37, 423, DateTimeKind.Local).AddTicks(2814),
                             Username = "adis"
                         },
                         new
                         {
                             Id = new Guid("7c9e6679-7425-40de-944b-e07fc1f90ae7"),
-                            CreatedAt = new DateTime(2019, 8, 5, 21, 16, 31, 391, DateTimeKind.Local).AddTicks(846),
-                            Password = "$2a$10$ApODPs7zY80ho3dThYv.5.tr5lx7lX17UBpRXftQzkCXF9FaLFEwi",
+                            CreatedAt = new DateTime(2019, 9, 13, 21, 10, 37, 504, DateTimeKind.Local).AddTicks(4014),
+                            Password = "$2a$10$3m.tJ3mMLklwk47wFx5xgO2epcygKXbb/UOK/ZeMkhgejNqvjUZcW",
                             Role = "admin",
-                            UpdatedAt = new DateTime(2019, 8, 5, 21, 16, 31, 391, DateTimeKind.Local).AddTicks(866),
+                            UpdatedAt = new DateTime(2019, 9, 13, 21, 10, 37, 504, DateTimeKind.Local).AddTicks(4038),
                             Username = "admin"
                         });
                 });
@@ -216,6 +244,14 @@ namespace AdisBlog.Migrations
                 {
                     b.HasOne("AdisBlog.Models.User", "User")
                         .WithMany("FavoritePosts")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("AdisBlog.Models.Following", b =>
+                {
+                    b.HasOne("AdisBlog.Models.User", "User")
+                        .WithMany("Followings")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });

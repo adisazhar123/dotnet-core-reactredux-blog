@@ -16,7 +16,7 @@ namespace AdisBlog.Core.Persistence.Repositories
             _context = context;
         }
 
-        public async Task<List<GetTagsByQueryVm>> GetTagsByQuery(string query)
+        public async Task<List<GetTagsByQueryVm>> GetTagsByQueryAsync(string query)
         {
             query = query == null ? "" : query;
             return await _context.Tags.Where(t => t.Title.Contains(query))

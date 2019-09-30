@@ -1,3 +1,4 @@
+using System;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using AdisBlog.Core.Persistence.Dtos;
@@ -6,6 +7,7 @@ using AdisBlog.Core.Persistence.Services;
 using AdisBlog.Routes;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace AdisBlog.Controllers
 {
@@ -13,9 +15,11 @@ namespace AdisBlog.Controllers
     public class AccountController : Controller
     {
         private readonly AccountService _accountService;
-        public AccountController(AccountService accountService)
+        ILogger log;
+        public AccountController(AccountService accountService, ILogger<AccountController> logger)
         {
             _accountService = accountService;
+            log = logger;
         }
         
         [HttpPost(Route.UsersLogin)]
@@ -44,6 +48,8 @@ namespace AdisBlog.Controllers
         [HttpPost(Route.UsersRegister)]
         public async Task<IActionResult> Register([FromBody] Register register)
         {
+            Console.WriteLine("this is in register");
+            log.LogError("Heyo");
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);

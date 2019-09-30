@@ -6,19 +6,27 @@ import TYPE from './types'
 export const getUsers = () => async (dispatch) => {
 	try {
 		const response = await sampleService.getUsers();
-		dispatch({ type: TYPE.USERS_GET_ALL, payload: response.data });
+		dispatch({ 
+			type: TYPE.USERS_GET_ALL, payload: response.data 
+		});
 	} catch (e) {
-		dispatch({ type: TYPE.ERROR_AUTHENTICATION, payload: e.message });
+		dispatch({ 
+			type: TYPE.ERROR_AUTHENTICATION, payload: e.message 
+		});
 	}
 };
 
 export const getUserPosts = (userId) => async (dispatch) => {
 	try {
 		const response = await usersService.getUserPosts(userId);
-		dispatch({ type: TYPE.USERS_GET_POSTS, payload: response.data });
+		dispatch({ 
+			type: TYPE.USERS_GET_POSTS, payload: response.data 
+		});
 	} catch (e) {
 		if (e.response) {
-			dispatch({ type: TYPE.ERROR_GENERIC, payload: e.response.status });
+			dispatch({ 
+				type: TYPE.ERROR_GENERIC, payload: e.response.status 
+			});
 		}
 	}
 };
@@ -29,7 +37,24 @@ export const getUserFavoritePosts = (username) => async (dispatch) => {
 		dispatch({ type: TYPE.USERS_GET_FAVORITE_POSTS, payload: response.data });
 	} catch (e) {
 		if (e.response) {
-			dispatch({ type: TYPE.ERROR_GENERIC, payload: e.response.status });
+			dispatch({ 
+				type: TYPE.ERROR_GENERIC, payload: e.response.status 
+			});
+		}
+	}
+};
+
+export const followUser = (followingUserId) => async (dispatch) => {
+	try {
+		await usersService.followUser(followingUserId);
+		dispatch({ 
+			type: TYPE.USERS_FOLLOW_SUCCESS
+		});
+	} catch (e) {
+		if (e.response) {
+			dispatch({
+				type: TYPE.ERROR_GENERIC, payload: e.response.status
+			});
 		}
 	}
 };

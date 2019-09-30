@@ -22,33 +22,29 @@ class NavMenu extends React.Component {
   
   publicMenu = () => {
       return (
-        [
+        <React.Fragment>
           <NavItem>
             <NavLink tag={Link} className="text-dark" to="/">Home</NavLink>
-          </NavItem>,
+          </NavItem>
           <NavItem>
             <NavLink tag={Link} className={'text-dark'} to={'/posts/create'}>Create a Post</NavLink>
           </NavItem>
-        ]
+        </React.Fragment>
       )
   };
   
   authenticationMenu = () => {
     if (this.props.auth.authenticated) {
       return (
-        [
           <NavItem>
             <NavLink tag={Link} className={'text-dark'} to={'/logout'}>Logout</NavLink>
           </NavItem>
-        ]
       )
     } else {
       return (
-        [
           <NavItem>
             <NavLink tag={Link} className={'text-dark'} to={'/login'}>Login</NavLink>
           </NavItem>
-        ]
       )
     }
   };

@@ -9,9 +9,11 @@
       <e p="src" t="Include">
         <e p="App" t="Include">
           <e p="Spa" t="IncludeRecursive">
+            <e p=".directory" t="Include" />
             <e p=".gitignore" t="Include" />
             <e p="AdisBlog.csproj" t="IncludeRecursive" />
             <e p="ClientApp" t="Include">
+              <e p=".env" t="Include" />
               <e p=".gitignore" t="Include" />
               <e p="README.md" t="Include" />
               <e p="node_modules/@tinymce/tinymce-react" t="IncludeRecursive" />
@@ -144,6 +146,7 @@
               <e p="PostsUsersController.cs" t="Include" />
               <e p="SampleDataController.cs" t="Include" />
               <e p="TagsController.cs" t="Include" />
+              <e p="UsersController.cs" t="Include" />
             </e>
             <e p="Core" t="Include">
               <e p="Domain" t="Include">
@@ -151,6 +154,7 @@
                   <e p="BaseModel.cs" t="Include" />
                   <e p="Comment.cs" t="Include" />
                   <e p="FavoritePost.cs" t="Include" />
+                  <e p="Following.cs" t="Include" />
                   <e p="Post.cs" t="Include" />
                   <e p="PostTag.cs" t="Include" />
                   <e p="Tag.cs" t="Include" />
@@ -191,6 +195,7 @@
                   <e p="CreateComment.cs" t="Include" />
                   <e p="CreateFavoritePost.cs" t="Include" />
                   <e p="CreatePost.cs" t="Include" />
+                  <e p="FollowUser.cs" t="Include" />
                   <e p="Login.cs" t="Include" />
                   <e p="Register.cs" t="Include" />
                 </e>
@@ -206,6 +211,12 @@
             <e p="Migrations" t="Include">
               <e p="20190805141631_Init.Designer.cs" t="Include" />
               <e p="20190805141631_Init.cs" t="Include" />
+              <e p="20190907161828_FollowingsTable.Designer.cs" t="Include" />
+              <e p="20190907161828_FollowingsTable.cs" t="Include" />
+              <e p="20190913140752_CoverImagePath Column.Designer.cs" t="Include" />
+              <e p="20190913140752_CoverImagePath Column.cs" t="Include" />
+              <e p="20190913141037_CoverImagePath Column(2).Designer.cs" t="Include" />
+              <e p="20190913141037_CoverImagePath Column(2).cs" t="Include" />
               <e p="BlogsDbContextModelSnapshot.cs" t="Include" />
             </e>
             <e p="Pages" t="Include">
@@ -222,6 +233,14 @@
               <e p="Route.cs" t="Include" />
             </e>
             <e p="Startup.cs" t="Include" />
+            <e p="Storage" t="Include">
+              <e p="Uploads" t="Include">
+                <e p="animal.jpg" t="Include" />
+                <e p="daylight-environment-forest-459225_17f4.jpg" t="Include" />
+                <e p="field-hd-wallpaper-landscape-66874_1537.jpg" t="Include" />
+                <e p="field-hd-wallpaper-landscape-66874_5ea0.jpg" t="Include" />
+              </e>
+            </e>
             <e p="appsettings.Development.json" t="Include" />
             <e p="appsettings.json" t="Include" />
             <e p="bin" t="ExcludeRecursive" />
@@ -232,11 +251,24 @@
                 </e>
               </e>
             </e>
+            <e p="wwwroot" t="Include">
+              <e p="Storage" t="Include">
+                <e p="Uploads" t="Include">
+                  <e p="animal.jpg" t="Include" />
+                  <e p="daylight-environment-forest-459225_17f4.jpg" t="Include" />
+                  <e p="field-hd-wallpaper-landscape-66874_1537.jpg" t="Include" />
+                  <e p="field-hd-wallpaper-landscape-66874_5ea0.jpg" t="Include" />
+                </e>
+              </e>
+              <e p="images" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Services" t="Include">
           <e p="Posts" t="Include">
             <e p="Posts.API" t="IncludeRecursive">
+              <e p=".directory" t="Include" />
+              <e p=".gitignore" t="Include" />
               <e p="Controllers" t="Include">
                 <e p="ValuesController.cs" t="Include" />
               </e>

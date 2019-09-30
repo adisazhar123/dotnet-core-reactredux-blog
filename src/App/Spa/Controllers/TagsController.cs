@@ -17,7 +17,7 @@ namespace AdisBlog.Controllers
         [HttpGet("tags")]
         public async Task<IActionResult> GetTagsByQuery([FromQuery] string query = "")
         {
-            var tags = _repository.GetTagsByQuery(query);
+            var tags = await _repository.GetTagsByQueryAsync(query);
             
             return Json(tags);
         }

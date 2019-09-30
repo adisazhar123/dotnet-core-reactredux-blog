@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/App/Spa/Controllers/UsersController.cs" line="24" mnemonic="9" />
+  </component>
   <component name="BuildServerSettings">
     <option name="LOGIN" value="" />
     <option name="SERVER_URL" value="http://buildserver" />
@@ -32,515 +35,79 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75abbd43-0bec-408f-9205-64b5427a5c13" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ReactReduxAdisBlog/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ReactReduxAdisBlog/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReactReduxAdisBlog/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ReactReduxAdisBlog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReactReduxAdisBlog/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/Spa/AdisBlog.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/AdisBlog.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/tags.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/tags.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/posts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/ListPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/ListPost.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsCreate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsCreate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Auth/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Auth/LoginPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/NavMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/NavMenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsShow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsShow.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Users/UsersShow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Users/UsersShow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/store/configureStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/store/configureStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/services/usersService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/ClientApp/src/services/usersService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/Spa/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/Controllers/AccountController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/Controllers/CommentsPostsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/Controllers/CommentsPostsController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/Spa/Controllers/PostsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/Controllers/PostsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/Controllers/PostsTagsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/Controllers/TagsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/Core/Domain/Repositories/IPostsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/Core/Domain/Repositories/IPostsRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/PostsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/PostsRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/Controllers/PostsUsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/Controllers/PostsUsersController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/Controllers/TagsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/Controllers/TagsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/Post.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/Post.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/Core/Domain/ViewModels/GetUserPostsVm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/Core/Domain/ViewModels/GetUserPostsVm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Extensions/Migration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Extensions/Migration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/TagsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/TagsRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/UsersRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/UsersRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Requests/CreatePost.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Requests/CreatePost.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Services/AccountService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Services/AccountService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/Spa/Data/BlogsDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/Data/BlogsDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/Migrations/BlogsDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/Migrations/BlogsDbContextModelSnapshot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/Spa/Routes/Route.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/Routes/Route.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/Spa/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/bin/Debug/netcoreapp2.2/AdisBlog.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/bin/Debug/netcoreapp2.2/AdisBlog.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/bin/Debug/netcoreapp2.2/AdisBlog.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/bin/Debug/netcoreapp2.2/AdisBlog.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/Spa/bin/Debug/netcoreapp2.2/AdisBlog.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/bin/Debug/netcoreapp2.2/AdisBlog.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/Spa/bin/Debug/netcoreapp2.2/AdisBlog.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/bin/Debug/netcoreapp2.2/AdisBlog.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/Spa/bin/Debug/netcoreapp2.2/AdisBlog.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/bin/Debug/netcoreapp2.2/AdisBlog.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/bin/Debug/netcoreapp2.2/AdisBlog.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/bin/Debug/netcoreapp2.2/AdisBlog.runtimeconfig.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/.bin/loose-envify" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/cjs/main/ts/Events.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/cjs/main/ts/Events.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/cjs/main/ts/ScriptLoader.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/cjs/main/ts/ScriptLoader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/cjs/main/ts/TinyMCE.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/cjs/main/ts/TinyMCE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/cjs/main/ts/Utils.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/cjs/main/ts/Utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/cjs/main/ts/components/Editor.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/cjs/main/ts/components/Editor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/cjs/main/ts/components/EditorPropTypes.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/cjs/main/ts/components/EditorPropTypes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/cjs/main/ts/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/cjs/main/ts/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/cjs/test/ts/alien/Loader.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/cjs/test/ts/alien/Loader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/cjs/test/ts/alien/TestHelpers.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/cjs/test/ts/alien/TestHelpers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/cjs/test/ts/browser/EditorBehaviorTest.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/cjs/test/ts/browser/EditorBehaviorTest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/cjs/test/ts/browser/EditorInitTest.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/cjs/test/ts/browser/EditorInitTest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/es2015/main/ts/Events.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/es2015/main/ts/Events.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/es2015/main/ts/ScriptLoader.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/es2015/main/ts/ScriptLoader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/es2015/main/ts/TinyMCE.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/es2015/main/ts/TinyMCE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/es2015/main/ts/Utils.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/es2015/main/ts/Utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/es2015/main/ts/components/Editor.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/es2015/main/ts/components/Editor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/es2015/main/ts/components/EditorPropTypes.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/es2015/main/ts/components/EditorPropTypes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/es2015/main/ts/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/es2015/main/ts/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/es2015/test/ts/alien/Loader.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/es2015/test/ts/alien/Loader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/es2015/test/ts/alien/TestHelpers.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/es2015/test/ts/alien/TestHelpers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/es2015/test/ts/browser/EditorBehaviorTest.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/es2015/test/ts/browser/EditorBehaviorTest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/es2015/test/ts/browser/EditorInitTest.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/lib/es2015/test/ts/browser/EditorInitTest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/@tinymce/tinymce-react/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/js-tokens/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/js-tokens/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/js-tokens/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/js-tokens/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/js-tokens/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/loose-envify/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/loose-envify/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/loose-envify/cli.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/loose-envify/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/loose-envify/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/loose-envify/loose-envify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/loose-envify/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/loose-envify/replace.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/ender.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/af.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/ar-dz.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/ar-kw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/ar-ly.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/ar-ma.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/ar-sa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/ar-tn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/az.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/be.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/bm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/bn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/bo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/br.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/bs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/cv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/de-at.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/de-ch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/dv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/en-SG.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/en-au.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/en-ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/en-gb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/en-ie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/en-il.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/en-nz.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/eo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/es-do.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/es-us.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/et.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/eu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/fo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/fr-ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/fr-ch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/fy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/ga.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/gd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/gom-latn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/gu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/hi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/hy-am.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/is.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/it-ch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/jv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/ka.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/kk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/km.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/kn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/ku.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/ky.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/lb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/lo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/me.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/mi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/mk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/ml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/mn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/mr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/ms-my.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/ms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/mt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/my.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/nb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/ne.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/nl-be.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/nn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/pa-in.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/pt-br.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/sd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/se.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/si.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/sl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/sq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/sr-cyrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/sr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/ss.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/sw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/ta.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/te.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/tet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/tg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/tl-ph.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/tlh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/tzl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/tzm-latn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/tzm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/ug-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/ur.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/uz-latn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/uz.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/x-pseudo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/yo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/zh-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/zh-hk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/locale/zh-tw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/min/locales.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/min/locales.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/min/moment-with-locales.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/min/moment-with-locales.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/min/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/moment.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/moment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/package.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/create/check-overflow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/create/date-from-array.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/create/from-anything.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/create/from-array.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/create/from-object.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/create/from-string-and-array.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/create/from-string-and-format.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/create/from-string.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/create/local.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/create/parsing-flags.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/create/utc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/create/valid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/duration/abs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/duration/add-subtract.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/duration/as.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/duration/bubble.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/duration/clone.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/duration/constructor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/duration/create.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/duration/duration.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/duration/get.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/duration/humanize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/duration/iso-string.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/duration/prototype.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/duration/valid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/format/format.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/locale/base-config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/locale/calendar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/locale/constructor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/locale/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/locale/formats.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/locale/invalid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/locale/lists.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/locale/locale.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/locale/locales.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/locale/ordinal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/locale/pre-post-format.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/locale/prototype.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/locale/relative.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/locale/set.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/moment/add-subtract.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/moment/calendar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/moment/clone.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/moment/compare.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/moment/constructor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/moment/creation-data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/moment/diff.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/moment/format.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/moment/from.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/moment/get-set.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/moment/locale.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/moment/min-max.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/moment/moment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/moment/now.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/moment/prototype.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/moment/start-end-of.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/moment/to-type.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/moment/to.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/moment/valid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/parse/regex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/parse/token.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/units/aliases.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/units/constants.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/units/day-of-month.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/units/day-of-week.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/units/day-of-year.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/units/hour.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/units/millisecond.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/units/minute.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/units/month.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/units/offset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/units/priorities.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/units/quarter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/units/second.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/units/timestamp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/units/timezone.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/units/units.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/units/week-calendar-utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/units/week-year.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/units/week.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/units/year.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/utils/abs-ceil.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/utils/abs-floor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/utils/abs-round.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/utils/compare-arrays.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/utils/defaults.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/utils/deprecate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/utils/extend.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/utils/has-own-prop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/utils/hooks.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/utils/index-of.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/utils/is-array.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/utils/is-date.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/utils/is-function.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/utils/is-number.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/utils/is-object-empty.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/utils/is-object.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/utils/is-undefined.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/utils/keys.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/utils/map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/utils/mod.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/utils/some.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/utils/to-int.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/lib/utils/zero-fill.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/af.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/ar-dz.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/ar-kw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/ar-ly.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/ar-ma.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/ar-sa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/ar-tn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/az.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/be.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/bm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/bn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/bo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/br.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/bs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/cv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/de-at.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/de-ch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/dv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/en-SG.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/en-au.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/en-ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/en-gb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/en-ie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/en-il.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/en-nz.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/eo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/es-do.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/es-us.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/et.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/eu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/fo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/fr-ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/fr-ch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/fy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/ga.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/gd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/gom-latn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/gu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/hi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/hy-am.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/is.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/it-ch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/jv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/ka.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/kk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/km.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/kn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/ku.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/ky.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/lb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/lo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/me.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/mi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/mk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/ml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/mn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/mr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/ms-my.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/ms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/mt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/my.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/nb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/ne.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/nl-be.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/nn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/pa-in.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/pt-br.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/sd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/se.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/si.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/sl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/sq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/sr-cyrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/sr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/ss.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/sw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/ta.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/te.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/tet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/tg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/tl-ph.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/tlh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/tzl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/tzm-latn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/tzm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/ug-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/ur.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/uz-latn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/uz.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/x-pseudo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/yo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/zh-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/zh-hk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/locale/zh-tw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/moment/src/moment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/object-assign/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/object-assign/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/object-assign/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/object-assign/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/prop-types/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/prop-types/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/prop-types/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/prop-types/checkPropTypes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/prop-types/factory.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/prop-types/factoryWithThrowingShims.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/prop-types/factoryWithTypeCheckers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/prop-types/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/prop-types/lib/ReactPropTypesSecret.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/prop-types/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/prop-types/prop-types.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/prop-types/prop-types.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/react-is/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/react-is/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/react-is/build-info.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/react-is/cjs/react-is.development.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/react-is/cjs/react-is.production.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/react-is/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/react-is/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/react-is/umd/react-is.development.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/node_modules/react-is/umd/react-is.production.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/AdisBlog.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/obj/AdisBlog.csproj.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/AdisBlog.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/obj/AdisBlog.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/AdisBlog.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/obj/AdisBlog.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/Razor/Pages/Error.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/Razor/Pages/Error.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/Razor/Pages/_ViewImports.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/Razor/Pages/_ViewImports.g.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/react-redux.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/react-redux.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/react-redux.RazorAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/react-redux.RazorAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/react-redux.RazorCoreGenerate.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/react-redux.RazorTargetAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/react-redux.RazorTargetAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/react-redux.TagHelpers.input.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/react-redux.TagHelpers.output.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/react-redux.Views.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/react-redux.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/react-redux.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/react-redux.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/react-redux.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/react-redux.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/react-redux.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/react-redux.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/Debug/netcoreapp2.2/react-redux.pdb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Spa/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/react-redux.csproj.EntityFrameworkCore.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/react-redux.csproj.codegeneration.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/react-redux.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/react-redux.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/react-redux.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/Spa/obj/react-redux.csproj.nuget.g.targets" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Services/Posts/Posts.API/obj/Debug/netcoreapp2.2/Posts.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/Posts/Posts.API/obj/Debug/netcoreapp2.2/Posts.API.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Services/Posts/Posts.API/obj/Debug/netcoreapp2.2/Posts.API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/Posts/Posts.API/obj/Debug/netcoreapp2.2/Posts.API.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Services/Posts/Posts.API/obj/Posts.API.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/Posts/Posts.API/obj/Posts.API.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services/Posts/Posts.API/obj/Posts.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/Posts/Posts.API/obj/Posts.API.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services/Posts/Posts.API/obj/Posts.API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/Posts/Posts.API/obj/Posts.API.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Services/Posts/Posts.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/Posts/Posts.API/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Services/Posts/Posts.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/Posts/Posts.API/obj/project.packagespec.json" afterDir="false" />
     </list>
@@ -550,8 +117,75 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ReactReduxAdisBlog" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsShow.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2037">
+              <caret line="115" selection-start-line="115" selection-end-line="115" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Comments/CommentsForm.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Comments/CommentsForm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/posts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -563,40 +197,42 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>createpost</find>
-      <find>commentform</find>
-      <find>valuege</find>
-      <find>valuegene</find>
-      <find>ed</find>
-      <find>alert</find>
-      <find>users</find>
-      <find>react_re</find>
-      <find>Err</find>
-      <find>react_red</find>
-      <find>react_redux</find>
-      <find>ErrorModel</find>
-      <find>get</find>
-      <find>changepage</find>
-      <find>currentpage</find>
-      <find>moment</find>
-      <find>title</find>
-      <find>moar</find>
-      <find>my art</find>
-      <find>fa</find>
-      <find>postform</find>
-      <find>rendererrors</find>
-      <find>handletitle</find>
-      <find>mt-3</find>
-      <find>post</find>
-      <find>posttag</find>
-      <find>poli</find>
+      <find>U</find>
+      <find>FindFirst</find>
+      <find>+ follow</find>
+      <find>unfoll</find>
+      <find>usersfollow</find>
+      <find>route</find>
+      <find>activeTab</find>
+      <find>navprofi</find>
+      <find>favorites</find>
+      <find>mounted</find>
+      <find>getuserfa</find>
+      <find>navprof</find>
+      <find>changenav</find>
+      <find>USERNAME</find>
+      <find>tags from</find>
+      <find>app.usestati</find>
+      <find>oggin</find>
+      <find>configure</find>
+      <find>_hosting</find>
+      <find>usereac</find>
+      <find>UseReac</find>
+      <find>claim</find>
+      <find>mapper</find>
+      <find>enj</find>
+      <find>postInfo</find>
+      <find>props.children</find>
+      <find>postbod</find>
+      <find>parser</find>
+      <find>commen</find>
+      <find>sty</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/Services/Posts/Posts.API/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Core/Domain/ViewModels/GetPostVm.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Core/Domain/ViewModels/GetTagsByQueryVm.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Core/Domain/Repositories/IPostsRepository.cs" root0="FORCE_HIGHLIGHTING" />
@@ -616,9 +252,22 @@
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/FavoritePostsRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/PostsRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Data/BlogsDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Requests/FollowUser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/559D1F9D-2E45-46D9-8A2E-DCB8C69E6AC7/08/b28c0309/IHostingEnvironment.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/App/Spa/Pages/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E8D55573-7AC6-4A31-A960-E81F1EB8FCC9/d7/fada3632/FileMode.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/App/Spa/Pages/Error.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Pages/Error.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Routes/Route.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/App/Spa/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/Following.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/App/Spa/Controllers/UsersController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/05/59474596/FromFormAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Posts/Posts.API/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E8D55573-7AC6-4A31-A960-E81F1EB8FCC9/cb/8c3d6c11/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6406A499-4A55-4163-B6A5-381C7BEDE0F6/93/01ec68ba/ILoggingBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C7CD62B1-F48C-46D8-9202-91CF9A4B08D7/91/81ae457d/ClaimsPrincipal.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Migrations/20190805141631_Init.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Controllers/PostsUsersController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Controllers/CommentsPostsController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -628,6 +277,7 @@
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Controllers/PostsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Controllers/TagsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/BaseModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/App/Spa/Controllers/SampleDataController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/FavoritePost.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/Post.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/Tag.cs" root0="FORCE_HIGHLIGHTING" />
@@ -638,30 +288,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Hoc/Authentication.js" />
-        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/services/usersService.js" />
-        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/users.js" />
-        <option value="$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/PostTag.cs" />
-        <option value="$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/Post.cs" />
-        <option value="$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/Tag.cs" />
-        <option value="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Extensions/Migration.cs" />
-        <option value="$PROJECT_DIR$/src/App/Spa/Core/Domain/ViewModels/GetTagsByQueryVm.cs" />
-        <option value="$PROJECT_DIR$/src/App/Spa/Controllers/PostsTagsController.cs" />
-        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/users.js" />
-        <option value="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Dtos/FavoritePostDto.cs" />
-        <option value="$PROJECT_DIR$/src/App/Spa/Core/Domain/ViewModels/GetUserFavoritePosts.cs" />
-        <option value="$PROJECT_DIR$/src/App/Spa/Controllers/PostsUsersController.cs" />
-        <option value="$PROJECT_DIR$/src/App/Spa/Core/Domain/ViewModels/GetUserFavoritePostsVm.cs" />
-        <option value="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Mappings/FavoritePostsProfile.cs" />
-        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/App.js" />
-        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Auth/RegisterForm.js" />
-        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Auth/RegisterPage.js" />
         <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/errors.js" />
         <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/authentication.js" />
         <option value="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Dtos/RegisterDto.cs" />
         <option value="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Requests/Register.cs" />
-        <option value="$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/User.cs" />
-        <option value="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/UsersRepository.cs" />
         <option value="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Requests/Login.cs" />
         <option value="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Services/AccountService.cs" />
         <option value="$PROJECT_DIR$/src/App/Spa/.gitignore" />
@@ -669,34 +299,54 @@
         <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/ListPost.js" />
         <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/apis/tags.js" />
         <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/tags.js" />
-        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/types.js" />
         <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/TAGS.js" />
         <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/tags.js" />
         <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/store/configureStore.js" />
         <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsCreate.js" />
-        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsForm.js" />
         <option value="$PROJECT_DIR$/src/App/Spa/Core/Domain/Repositories/IPostsRepository.cs" />
-        <option value="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Requests/CreatePost.cs" />
-        <option value="$PROJECT_DIR$/src/App/Spa/Controllers/PostsController.cs" />
         <option value="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/PostsRepository.cs" />
-        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsShow.js" />
-        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Users/UsersShow.js" />
-        <option value="$PROJECT_DIR$/src/App/Spa/Controllers/AccountController.cs" />
-        <option value="$PROJECT_DIR$/src/App/Spa/Routes/Route.cs" />
         <option value="$PROJECT_DIR$/src/App/Spa/Controllers/CommentsPostsController.cs" />
         <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsList.js" />
         <option value="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/TagsRepository.cs" />
-        <option value="$PROJECT_DIR$/src/App/Spa/Startup.cs" />
         <option value="$PROJECT_DIR$/src/App/Spa/Controllers/TagsController.cs" />
+        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Auth/LoginPage.js" />
+        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/NavMenu.js" />
+        <option value="$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/User.cs" />
+        <option value="$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/Following.cs" />
         <option value="$PROJECT_DIR$/src/App/Spa/Data/BlogsDbContext.cs" />
+        <option value="$PROJECT_DIR$/src/App/Spa/Routes/Route.cs" />
+        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/types.js" />
+        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/users.js" />
+        <option value="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Requests/FollowUser.cs" />
+        <option value="$PROJECT_DIR$/src/App/Spa/Controllers/UsersController.cs" />
+        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/services/usersService.js" />
+        <option value="$PROJECT_DIR$/src/App/Spa/Core/Domain/ViewModels/GetUserPostsVm.cs" />
+        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/users.js" />
+        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Users/UsersShow.js" />
+        <option value="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Requests/CreatePost.cs" />
+        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/posts.js" />
+        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsForm.js" />
+        <option value="$PROJECT_DIR$/src/App/Spa/Controllers/PostsController.cs" />
+        <option value="$PROJECT_DIR$/src/App/Spa/appsettings.Development.json" />
+        <option value="$PROJECT_DIR$/src/App/Spa/Controllers/AccountController.cs" />
+        <option value="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/UsersRepository.cs" />
+        <option value="$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/Post.cs" />
+        <option value="$PROJECT_DIR$/src/App/Spa/Core/Persistence/Extensions/Migration.cs" />
+        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/.env" />
+        <option value="$PROJECT_DIR$/src/App/Spa/Startup.cs" />
+        <option value="$PROJECT_DIR$/src/App/Spa/Controllers/PostsUsersController.cs" />
+        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/index.js" />
+        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/auth.js" />
+        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/posts.js" />
+        <option value="$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsShow.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="305" />
-    <option name="y" value="27" />
-    <option name="width" value="952" />
-    <option name="height" value="1046" />
+    <option name="x" value="346" />
+    <option name="y" value="263" />
+    <option name="width" value="1280" />
+    <option name="height" value="702" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -738,22 +388,46 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="ReactReduxAdisBlog" type="24d0babc:SolutionExplorerModelNode" />
               <item name="src" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="App" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="AdisBlog" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="ReactReduxAdisBlog" type="24d0babc:SolutionExplorerModelNode" />
               <item name="src" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Posts" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="App" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="AdisBlog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="ReactReduxAdisBlog" type="24d0babc:SolutionExplorerModelNode" />
               <item name="src" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Posts" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Posts.API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="App" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="AdisBlog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ReactReduxAdisBlog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="App" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="AdisBlog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="components" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ReactReduxAdisBlog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="App" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="AdisBlog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="components" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Comments" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -775,7 +449,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -824,10 +498,10 @@
       </method>
     </configuration>
     <configuration name="react-redux: react_redux" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/AdisBlog.csproj" />
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/App/Spa/AdisBlog.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
       <option name="LAUNCH_PROFILE_NAME" value="AdisBlog" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="1" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <browser name="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
@@ -889,11 +563,26 @@
       <workItem from="1567480778409" duration="599000" />
       <workItem from="1567577619580" duration="4919000" />
       <workItem from="1567608010429" duration="12667000" />
+      <workItem from="1567782211719" duration="4135000" />
+      <workItem from="1567837915403" duration="126000" />
+      <workItem from="1567867235333" duration="425000" />
+      <workItem from="1567867950944" duration="9805000" />
+      <workItem from="1568201087957" duration="3298000" />
+      <workItem from="1568209420454" duration="6027000" />
+      <workItem from="1568375589602" duration="7691000" />
+      <workItem from="1568384087072" duration="90000" />
+      <workItem from="1568388706548" duration="1568000" />
+      <workItem from="1568999956671" duration="513000" />
+      <workItem from="1569000499118" duration="1251000" />
+      <workItem from="1569337312602" duration="5835000" />
+      <workItem from="1569424108259" duration="737000" />
+      <workItem from="1569605884737" duration="73000" />
+      <workItem from="1569693266595" duration="45000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118646000" />
+    <option name="totallyTimeSpent" value="160265000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -906,64 +595,36 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="26" width="1922" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20757738" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2457265" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32977587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32901832" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.399137" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32843652" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39874083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32901832" />
-      <window_info anchor="bottom" id="NuGet" order="7" sideWeight="0.4989035" weight="0.3279396" />
-      <window_info anchor="bottom" id="Performance Profiler" order="8" weight="0.32901832" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843652" />
+      <window_info anchor="bottom" id="NuGet" order="7" sideWeight="0.4989035" weight="0.32659575" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" weight="0.32765958" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32948583" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.32901832" />
-      <window_info anchor="bottom" id="REST Client" order="13" weight="0.32901832" />
-      <window_info anchor="bottom" id="TeamCity" order="14" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" order="15" weight="0.32901832" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.32843652" />
+      <window_info anchor="bottom" id="REST Client" order="13" weight="0.32843652" />
+      <window_info anchor="bottom" id="TeamCity" order="14" weight="0.32843652" />
+      <window_info anchor="bottom" id="Terminal" order="15" weight="0.1529774" />
       <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.5010965" side_tool="true" weight="0.26349893" />
-      <window_info anchor="bottom" id="Build" order="17" weight="0.32901832" />
+      <window_info anchor="bottom" id="Build" order="17" weight="0.32843652" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32959402" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" weight="0.21664888" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.30701753" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32901832" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.399137" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32901832" />
-      <window_info anchor="bottom" id="NuGet" order="7" sideWeight="0.4989035" weight="0.3279396" />
-      <window_info anchor="bottom" id="Performance Profiler" order="8" weight="0.32901832" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.32901832" />
-      <window_info anchor="bottom" id="REST Client" order="13" weight="0.32901832" />
-      <window_info anchor="bottom" id="TeamCity" order="14" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" order="15" weight="0.32901832" />
-      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.5010965" side_tool="true" visible="true" weight="0.26349893" />
-      <window_info anchor="bottom" id="Build" order="17" weight="0.32901832" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -981,42 +642,367 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Requests/Login.cs">
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/Controllers/CommentsPostsController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        <state relative-caret-position="609">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
           <folding>
-            <marker date="1567607774951" expanded="true" signature="44:173" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="69:171" ph="{...}" />
+            <marker date="1567617371957" expanded="false" signature="6:251" ph="..." />
+            <marker date="1567617371957" expanded="true" signature="283:1313" ph="{...}" />
+            <marker date="1567617371957" expanded="true" signature="396:1311" ph="{...}" />
+            <marker date="1567617371957" expanded="true" signature="536:582" ph="{...}" />
+            <marker date="1567617371957" expanded="true" signature="739:1108" ph="{...}" />
+            <marker date="1567617371957" expanded="true" signature="884:968" ph="{...}" />
+            <marker date="1567617371957" expanded="true" signature="1233:1305" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Domain/ViewModels/GetUserPostsVm.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <marker date="1568202646168" expanded="true" signature="6:70" ph="..." />
+            <marker date="1568202646168" expanded="true" signature="113:409" ph="{...}" />
+            <marker date="1568202646168" expanded="true" signature="147:407" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/FetchData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.webworker.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="1435" column="4" selection-start-line="1435" selection-start-column="4" selection-end-line="1435" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/05/59474596/FromFormAttribute.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#402#460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/.directory">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/apis/posts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/posts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E8D55573-7AC6-4A31-A960-E81F1EB8FCC9/d7/fada3632/FileMode.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/Pages/_ViewImports.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/Pages/Error.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1567607774951" expanded="true" signature="24:61" ph="@..." />
+            <marker date="1567607774951" expanded="true" signature="178:291" ph="@..." />
+            <marker date="1567607774951" expanded="true" signature="203:291" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/559D1F9D-2E45-46D9-8A2E-DCB8C69E6AC7/08/b28c0309/IHostingEnvironment.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+          <folding>
+            <marker date="1568380589162" expanded="true" signature="0:442" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1568380589162" expanded="true" signature="525:1649" ph="{...}" />
+            <marker date="1568380589162" expanded="true" signature="530:647" ph="/// Provides information about the hosting environment an application is running in. ... " />
+            <marker date="1568380589162" expanded="true" signature="686:1647" ph="{...}" />
+            <marker date="1568380589162" expanded="true" signature="695:903" ph="/// Gets or sets the name of the environment. The host automatically sets this property to the value of the ... " />
+            <marker date="1568380589162" expanded="true" signature="950:1143" ph="/// Gets or sets the name of the application. This property is automatically set by the host to the assembly cont ... " />
+            <marker date="1568380589162" expanded="true" signature="1190:1323" ph="/// Gets or sets the absolute path to the directory that contains the application content files. ... " />
+            <marker date="1568380589162" expanded="true" signature="1370:1587" ph="/// Gets or sets an &lt;see cref=&quot;T:Microsoft.Extensions.FileProviders.IFileProvider&quot; /&gt; pointing at &lt;see cref=&quot;P:Mi ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/wwwroot/Storage/Uploads/animal.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6406A499-4A55-4163-B6A5-381C7BEDE0F6/93/01ec68ba/ILoggingBuilder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E8D55573-7AC6-4A31-A960-E81F1EB8FCC9/cb/8c3d6c11/ExceptionDispatchInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="97" column="5" lean-forward="true" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Requests/CreatePost.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding>
+            <marker date="1568376619557" expanded="false" signature="6:148" ph="..." />
+            <marker date="1568376619557" expanded="true" signature="194:585" ph="{...}" />
+            <marker date="1568376619557" expanded="true" signature="224:459" ph="{...}" />
+            <marker date="1568376619557" expanded="true" signature="487:583" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/UsersRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="62" column="39" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
+        <state relative-caret-position="1344">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
           <folding>
-            <marker date="1567607774951" expanded="false" signature="6:300" ph="..." />
-            <marker date="1567607774951" expanded="true" signature="350:2917" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="385:2915" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="563:645" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="696:796" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="869:1200" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="1023:1121" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="1295:1950" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="1711:1880" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="2023:2909" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="2449:2590" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="2761:2898" ph="{...}" />
+            <marker date="1568383351530" expanded="true" signature="6:296" ph="..." />
+            <marker date="1568383351530" expanded="true" signature="346:3813" ph="{...}" />
+            <marker date="1568383351530" expanded="true" signature="381:3811" ph="{...}" />
+            <marker date="1568383351530" expanded="true" signature="501:553" ph="{...}" />
+            <marker date="1568383351530" expanded="true" signature="604:704" ph="{...}" />
+            <marker date="1568383351530" expanded="true" signature="777:1234" ph="{...}" />
+            <marker date="1568383351530" expanded="true" signature="975:1155" ph="{...}" />
+            <marker date="1568383351530" expanded="true" signature="1312:1457" ph="{...}" />
+            <marker date="1568383351530" expanded="true" signature="1552:2205" ph="{...}" />
+            <marker date="1568383351530" expanded="true" signature="1966:2135" ph="{...}" />
+            <marker date="1568383351530" expanded="true" signature="2278:3164" ph="{...}" />
+            <marker date="1568383351530" expanded="true" signature="2704:2845" ph="{...}" />
+            <marker date="1568383351530" expanded="true" signature="3016:3153" ph="{...}" />
+            <marker date="1568383351530" expanded="true" signature="3255:3805" ph="{...}" />
+            <marker date="1568383351530" expanded="true" signature="3490:3595" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <marker date="1567607774951" expanded="false" signature="6:255" ph="..." />
+            <marker date="1567607774951" expanded="true" signature="275:602" ph="{...}" />
+            <marker date="1567607774951" expanded="true" signature="302:600" ph="{...}" />
+            <marker date="1567607774951" expanded="true" signature="355:429" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/Following.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <marker date="1567868722145" expanded="true" signature="40:242" ph="{...}" />
+            <marker date="1567868722145" expanded="true" signature="81:240" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/Post.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <marker date="1568383593325" expanded="false" signature="6:92" ph="..." />
+            <marker date="1568383593325" expanded="true" signature="119:551" ph="{...}" />
+            <marker date="1568383593325" expanded="true" signature="155:549" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/Data/BlogsDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <marker date="1567868848380" expanded="false" signature="6:171" ph="..." />
+            <marker date="1567868848380" expanded="true" signature="242:2144" ph="{...}" />
+            <marker date="1567868848380" expanded="true" signature="649:661" ph="{...}" />
+            <marker date="1567868848380" expanded="true" signature="737:850" ph="{...}" />
+            <marker date="1567868848380" expanded="true" signature="923:1037" ph="{...}" />
+            <marker date="1567868848380" expanded="true" signature="1195:1333" ph="{...}" />
+            <marker date="1567868848380" expanded="true" signature="1380:2138" ph="{...}" />
+            <marker date="1567868848380" expanded="true" signature="1484:2128" ph="{...}" />
+            <marker date="1567868848380" expanded="true" signature="1555:2114" ph="{...}" />
+            <marker date="1567868848380" expanded="true" signature="1658:2096" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/Controllers/UsersController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <marker date="1567872605800" expanded="true" signature="6:303" ph="..." />
+            <marker date="1567872605800" expanded="true" signature="440:1107" ph="{...}" />
+            <marker date="1567872605800" expanded="true" signature="568:626" ph="{...}" />
+            <marker date="1567872605800" expanded="true" signature="763:1101" ph="{...}" />
+            <marker date="1567872605800" expanded="true" signature="810:885" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/Controllers/TagsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding>
+            <marker date="1567783989855" expanded="true" signature="6:107" ph="..." />
+            <marker date="1567783989855" expanded="true" signature="139:643" ph="{...}" />
+            <marker date="1567783989855" expanded="true" signature="205:641" ph="{...}" />
+            <marker date="1567783989855" expanded="true" signature="322:380" ph="{...}" />
+            <marker date="1567783989855" expanded="true" signature="502:635" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/Controllers/PostsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="61" column="51" selection-start-line="61" selection-start-column="51" selection-end-line="61" selection-end-column="51" />
+          <folding>
+            <marker date="1568381070872" expanded="true" signature="6:447" ph="..." />
+            <marker date="1568381070872" expanded="true" signature="479:4403" ph="{...}" />
+            <marker date="1568381070872" expanded="true" signature="584:4401" ph="{...}" />
+            <marker date="1568381070872" expanded="true" signature="924:1088" ph="{...}" />
+            <marker date="1568381070872" expanded="true" signature="1155:1432" ph="{...}" />
+            <marker date="1568381070872" expanded="true" signature="1638:2601" ph="{...}" />
+            <marker date="1568381070872" expanded="true" signature="1866:1999" ph="{...}" />
+            <marker date="1568381070872" expanded="true" signature="2083:2509" ph="{...}" />
+            <marker date="1568381070872" expanded="true" signature="2803:2918" ph="{...}" />
+            <marker date="1568381070872" expanded="true" signature="3032:3136" ph="{...}" />
+            <marker date="1568381070872" expanded="true" signature="3272:3813" ph="{...}" />
+            <marker date="1568381070872" expanded="true" signature="3427:3622" ph="{...}" />
+            <marker date="1568381070872" expanded="true" signature="3678:3766" ph="{...}" />
+            <marker date="1568381070872" expanded="true" signature="3955:4395" ph="{...}" />
+            <marker date="1568381070872" expanded="true" signature="4002:4077" ph="{...}" />
+            <marker date="1568381070872" expanded="true" signature="4133:4239" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Extensions/Migration.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="71" column="15" lean-forward="true" selection-start-line="71" selection-start-column="15" selection-end-line="71" selection-end-column="15" />
+          <folding>
+            <marker date="1568383741457" expanded="false" signature="6:107" ph="..." />
+            <marker date="1568383741457" expanded="true" signature="155:6201" ph="{...}" />
+            <marker date="1568383741457" expanded="true" signature="191:6199" ph="{...}" />
+            <marker date="1568383741457" expanded="true" signature="273:6193" ph="{...}" />
+            <marker date="1568383741457" expanded="true" signature="395:730" ph="{...}" />
+            <marker date="1568383741457" expanded="true" signature="773:1110" ph="{...}" />
+            <marker date="1568383741457" expanded="true" signature="1186:2099" ph="{...}" />
+            <marker date="1568383741457" expanded="true" signature="2221:3021" ph="{...}" />
+            <marker date="1568383741457" expanded="true" signature="3152:3572" ph="{...}" />
+            <marker date="1568383741457" expanded="true" signature="3810:4171" ph="{...}" />
+            <marker date="1568383741457" expanded="true" signature="4279:4514" ph="{...}" />
+            <marker date="1568383741457" expanded="true" signature="4556:4781" ph="{...}" />
+            <marker date="1568383741457" expanded="true" signature="4823:5051" ph="{...}" />
+            <marker date="1568383741457" expanded="true" signature="5289:5822" ph="{...}" />
+            <marker date="1568383741457" expanded="true" signature="5959:6181" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2068">
+          <caret line="111" column="13" lean-forward="true" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
+          <folding>
+            <marker date="1569001585775" expanded="true" signature="6:642" ph="..." />
+            <marker date="1569001585775" expanded="true" signature="662:4544" ph="{...}" />
+            <marker date="1569001585775" expanded="true" signature="689:4542" ph="{...}" />
+            <marker date="1569001585775" expanded="true" signature="748:811" ph="{...}" />
+            <marker date="1569001585775" expanded="true" signature="1118:3049" ph="{...}" />
+            <marker date="1569001585775" expanded="true" signature="1319:1803" ph="{...}" />
+            <marker date="1569001585775" expanded="true" signature="1526:1784" ph="{...}" />
+            <marker date="1569001585775" expanded="true" signature="1862:2030" ph="{...}" />
+            <marker date="1569001585775" expanded="true" signature="2672:2747" ph="{...}" />
+            <marker date="1569001585775" expanded="true" signature="3237:4536" ph="{...}" />
+            <marker date="1569001585775" expanded="true" signature="3284:3361" ph="{...}" />
+            <marker date="1569001585775" expanded="true" signature="3378:3632" ph="{...}" />
+            <marker date="1569001585775" expanded="true" signature="4024:4177" ph="{...}" />
+            <marker date="1569001585775" expanded="true" signature="4223:4524" ph="{...}" />
+            <marker date="1569001585775" expanded="true" signature="4320:4510" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Services/AccountService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="89" column="46" lean-forward="true" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
+        <state relative-caret-position="984">
+          <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
           <folding>
             <marker date="1567608214667" expanded="false" signature="6:394" ph="..." />
             <marker date="1567608214667" expanded="true" signature="440:3503" ph="{...}" />
@@ -1038,210 +1024,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/Controllers/AccountController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="399">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <marker date="1568383275822" expanded="true" signature="6:328" ph="..." />
+            <marker date="1568383275822" expanded="true" signature="360:1835" ph="{...}" />
+            <marker date="1568383275822" expanded="true" signature="429:1833" ph="{...}" />
+            <marker date="1568383275822" expanded="true" signature="612:704" ph="{...}" />
+            <marker date="1568383275822" expanded="true" signature="809:1040" ph="{...}" />
+            <marker date="1568383275822" expanded="true" signature="922:989" ph="{...}" />
+            <marker date="1568383275822" expanded="true" signature="1155:1350" ph="{...}" />
+            <marker date="1568383275822" expanded="true" signature="1268:1338" ph="{...}" />
+            <marker date="1568383275822" expanded="true" signature="1479:1827" ph="{...}" />
+            <marker date="1568383275822" expanded="true" signature="1614:1689" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/ListPost.js">
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Counter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="504">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/weather.js">
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="72" lean-forward="true" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/FetchData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="73" column="14" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/tinymce.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/apis/auth.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/apis/sampleService.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/apis/posts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="3" lean-forward="true" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/apis/tags.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/types.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/node_modules/react-select/async/dist/react-select.esm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
-          <caret line="219" column="4" selection-start-line="219" selection-start-column="4" selection-end-line="219" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsCreate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="47" column="6" lean-forward="true" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+        <state relative-caret-position="1764">
+          <caret line="84" column="15" selection-start-line="84" selection-start-column="15" selection-end-line="84" selection-end-column="15" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/tags.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/actions/posts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/tags.js">
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/Controllers/PostsUsersController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Extensions/Migration.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2331">
-          <caret line="114" column="39" selection-start-line="114" selection-start-column="39" selection-end-line="114" selection-end-column="39" />
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
           <folding>
-            <marker date="1567607774951" expanded="false" signature="6:107" ph="..." />
-            <marker date="1567607774951" expanded="true" signature="155:5556" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="191:5554" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="273:5548" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="395:730" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="773:1110" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="1186:1921" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="2043:2735" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="2866:3286" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="3524:3885" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="3993:4228" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="4270:4495" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="4537:4765" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="5003:5536" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Requests/CreateComment.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <marker date="1567607774951" expanded="true" signature="90:197" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="123:195" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsShow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="74" column="29" lean-forward="true" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <marker date="1569338367950" expanded="true" signature="6:209" ph="..." />
+            <marker date="1569338367950" expanded="true" signature="241:1418" ph="{...}" />
+            <marker date="1569338367950" expanded="true" signature="313:1416" ph="{...}" />
+            <marker date="1569338367950" expanded="true" signature="425:471" ph="{...}" />
+            <marker date="1569338367950" expanded="true" signature="595:1045" ph="{...}" />
+            <marker date="1569338367950" expanded="true" signature="868:990" ph="{...}" />
+            <marker date="1569338367950" expanded="true" signature="1186:1410" ph="{...}" />
+            <marker date="1569338367950" expanded="true" signature="1325:1370" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Users/UsersShow.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="93" column="19" lean-forward="true" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+        <state relative-caret-position="1155">
+          <caret line="75" column="12" lean-forward="true" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/posts.js">
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
           <folding>
-            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Domain/Repositories/IPostsRepository.cs">
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/auth.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/wwwroot/Storage/Uploads/field-hd-wallpaper-landscape-66874_1537.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Comments/ListComment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
           <folding>
-            <marker date="1567615427066" expanded="false" signature="6:181" ph="..." />
-            <marker date="1567615427066" expanded="true" signature="226:563" ph="{...}" />
-            <marker date="1567615427066" expanded="true" signature="266:561" ph="{...}" />
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="88" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/PostsRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="76" column="51" lean-forward="true" selection-start-line="76" selection-start-column="51" selection-end-line="76" selection-end-column="51" />
+        <state relative-caret-position="1323">
+          <caret line="72" column="39" lean-forward="true" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
           <folding>
             <marker date="1567615646672" expanded="false" signature="6:299" ph="..." />
             <marker date="1567615646672" expanded="true" signature="349:2902" ph="{...}" />
@@ -1258,298 +1164,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Requests/CreatePost.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <marker date="1567615427086" expanded="true" signature="6:115" ph="..." />
-            <marker date="1567615427086" expanded="true" signature="161:501" ph="{...}" />
-            <marker date="1567615427086" expanded="true" signature="191:375" ph="{...}" />
-            <marker date="1567615427086" expanded="true" signature="403:499" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/Tag.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <marker date="1567607774951" expanded="true" signature="60:212" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="95:210" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Domain/Models/PostTag.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <marker date="1567607774951" expanded="true" signature="40:247" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="67:245" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Controllers/PostsController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="90" column="13" lean-forward="true" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
-          <folding>
-            <marker date="1567615518390" expanded="true" signature="6:394" ph="..." />
-            <marker date="1567615518390" expanded="true" signature="426:3365" ph="{...}" />
-            <marker date="1567615518390" expanded="true" signature="531:3363" ph="{...}" />
-            <marker date="1567615518390" expanded="true" signature="765:875" ph="{...}" />
-            <marker date="1567615518390" expanded="true" signature="1081:1563" ph="{...}" />
-            <marker date="1567615518390" expanded="true" signature="1309:1442" ph="{...}" />
-            <marker date="1567615518390" expanded="true" signature="1765:1880" ph="{...}" />
-            <marker date="1567615518390" expanded="true" signature="1994:2098" ph="{...}" />
-            <marker date="1567615518390" expanded="true" signature="2234:2775" ph="{...}" />
-            <marker date="1567615518390" expanded="true" signature="2389:2584" ph="{...}" />
-            <marker date="1567615518390" expanded="true" signature="2640:2728" ph="{...}" />
-            <marker date="1567615518390" expanded="true" signature="2917:3357" ph="{...}" />
-            <marker date="1567615518390" expanded="true" signature="2964:3039" ph="{...}" />
-            <marker date="1567615518390" expanded="true" signature="3095:3201" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/CommentsPostsRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="83" lean-forward="true" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="83" />
-          <folding>
-            <marker date="1567607774951" expanded="false" signature="6:177" ph="..." />
-            <marker date="1567607774951" expanded="true" signature="227:895" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="270:893" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="398:450" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="534:685" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="747:887" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Routes/Route.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
-          <folding>
-            <marker date="1567617372681" expanded="true" signature="25:629" ph="{...}" />
-            <marker date="1567617372681" expanded="true" signature="57:627" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Controllers/AccountController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-          <folding>
-            <marker date="1567617269542" expanded="false" signature="6:278" ph="..." />
-            <marker date="1567617269542" expanded="true" signature="310:1615" ph="{...}" />
-            <marker date="1567617269542" expanded="true" signature="379:1613" ph="{...}" />
-            <marker date="1567617269542" expanded="true" signature="506:572" ph="{...}" />
-            <marker date="1567617269542" expanded="true" signature="677:908" ph="{...}" />
-            <marker date="1567617269542" expanded="true" signature="790:857" ph="{...}" />
-            <marker date="1567617269542" expanded="true" signature="1023:1218" ph="{...}" />
-            <marker date="1567617269542" expanded="true" signature="1136:1206" ph="{...}" />
-            <marker date="1567617269542" expanded="true" signature="1347:1607" ph="{...}" />
-            <marker date="1567617269542" expanded="true" signature="1394:1469" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Controllers/CommentsPostsController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-          <folding>
-            <marker date="1567617371957" expanded="false" signature="6:251" ph="..." />
-            <marker date="1567617371957" expanded="true" signature="283:1313" ph="{...}" />
-            <marker date="1567617371957" expanded="true" signature="396:1311" ph="{...}" />
-            <marker date="1567617371957" expanded="true" signature="536:582" ph="{...}" />
-            <marker date="1567617371957" expanded="true" signature="739:1108" ph="{...}" />
-            <marker date="1567617371957" expanded="true" signature="884:968" ph="{...}" />
-            <marker date="1567617371957" expanded="true" signature="1233:1305" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Persistence/Repositories/TagsRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding>
-            <marker date="1567618506071" expanded="true" signature="6:179" ph="..." />
-            <marker date="1567618506071" expanded="true" signature="229:837" ph="{...}" />
-            <marker date="1567618506071" expanded="true" signature="263:835" ph="{...}" />
-            <marker date="1567618506071" expanded="true" signature="382:434" ph="{...}" />
-            <marker date="1567618506071" expanded="true" signature="514:829" ph="{...}" />
-            <marker date="1567618506071" expanded="true" signature="714:803" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/store/WeatherForecasts.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/store/Counter.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/node_modules/react-router-redux/es/reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/store/configureStore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="15" column="64" lean-forward="true" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+        <state relative-caret-position="735">
+          <caret line="35" column="63" lean-forward="true" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
           <folding>
             <element signature="e#0#79#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/App.test.js">
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/store/Counter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="462">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsShow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2037">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Migrations/20190805141631_Init.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="31" column="69" lean-forward="true" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
-          <folding>
-            <marker date="1567607774951" expanded="false" signature="6:61" ph="..." />
-            <marker date="1567607774951" expanded="true" signature="92:8478" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="136:8476" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="212:7926" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="349:643" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="699:778" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="909:1343" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="1399:1479" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="1619:1981" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="2037:2435" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="2566:2994" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="3050:3430" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="3564:3924" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="3980:4366" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="4500:4651" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="4707:5415" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="5623:6374" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="6606:7244" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="7999:8470" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Core/Domain/ViewModels/CreateFavoritePostVm.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          <folding>
-            <marker date="1567607774951" expanded="true" signature="41:136" ph="{...}" />
-            <marker date="1567607774951" expanded="true" signature="81:134" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Roadmap.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Data/BlogsDbContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <marker date="1567614574451" expanded="false" signature="6:171" ph="..." />
-            <marker date="1567614574451" expanded="true" signature="196:2142" ph="{...}" />
-            <marker date="1567614574451" expanded="true" signature="242:2140" ph="{...}" />
-            <marker date="1567614574451" expanded="true" signature="645:657" ph="{...}" />
-            <marker date="1567614574451" expanded="true" signature="733:846" ph="{...}" />
-            <marker date="1567614574451" expanded="true" signature="919:1033" ph="{...}" />
-            <marker date="1567614574451" expanded="true" signature="1191:1329" ph="{...}" />
-            <marker date="1567614574451" expanded="true" signature="1376:2134" ph="{...}" />
-            <marker date="1567614574451" expanded="true" signature="1480:2124" ph="{...}" />
-            <marker date="1567614574451" expanded="true" signature="1551:2110" ph="{...}" />
-            <marker date="1567614574451" expanded="true" signature="1654:2092" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/427697FE-42B7-459B-A530-2FB76D339D3B/36/a1b0f6d6/AuthAppBuilderExtensions.cs">
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/reducers/posts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="86" column="20" lean-forward="true" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
-            <marker date="1567618500431" expanded="true" signature="6:606" ph="..." />
-            <marker date="1567618500431" expanded="true" signature="626:3923" ph="{...}" />
-            <marker date="1567618500431" expanded="true" signature="653:3921" ph="{...}" />
-            <marker date="1567618500431" expanded="true" signature="712:775" ph="{...}" />
-            <marker date="1567618500431" expanded="true" signature="998:2708" ph="{...}" />
-            <marker date="1567618500431" expanded="true" signature="1199:1683" ph="{...}" />
-            <marker date="1567618500431" expanded="true" signature="1406:1664" ph="{...}" />
-            <marker date="1567618500431" expanded="true" signature="2331:2406" ph="{...}" />
-            <marker date="1567618500431" expanded="true" signature="2896:3915" ph="{...}" />
-            <marker date="1567618500431" expanded="true" signature="2943:3020" ph="{...}" />
-            <marker date="1567618500431" expanded="true" signature="3037:3291" ph="{...}" />
-            <marker date="1567618500431" expanded="true" signature="3486:3639" ph="{...}" />
-            <marker date="1567618500431" expanded="true" signature="3685:3903" ph="{...}" />
-            <marker date="1567618500431" expanded="true" signature="3782:3889" ph="{...}" />
+            <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/Controllers/TagsController.cs">
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <marker date="1567619726117" expanded="true" signature="6:107" ph="..." />
-            <marker date="1567619726117" expanded="true" signature="139:632" ph="{...}" />
-            <marker date="1567619726117" expanded="true" signature="205:630" ph="{...}" />
-            <marker date="1567619726117" expanded="true" signature="322:380" ph="{...}" />
-            <marker date="1567619726117" expanded="true" signature="502:624" ph="{...}" />
-          </folding>
+        <state relative-caret-position="50">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Posts/PostsList.js">
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Comments/CommentsForm.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Spa/ClientApp/src/components/Comments/CommentsForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state>
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

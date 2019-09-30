@@ -13,6 +13,7 @@ namespace AdisBlog.Routes
         public const string UsersRegister = "register";
         public const string UsersLogin = "login";
         public const string UsersLogout = "logout";
-        
+
+        public const string UsersFollow = "users/follow";
     }
 }

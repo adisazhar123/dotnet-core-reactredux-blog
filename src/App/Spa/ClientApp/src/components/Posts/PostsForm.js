@@ -7,7 +7,8 @@ class PostsForm extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = { title: '', body: '', selectedTags: [] };
+        const initialState = { title: '', body: '', selectedTags: [], coverImage: null };
+        this.state = initialState;
     }
 
     setTinyMceContent = (e) => {
@@ -17,8 +18,13 @@ class PostsForm extends React.Component {
 
     onSubmit = (e) => {
         e.preventDefault();
-        const formValues = { title: this.state.title, body: this.state.body, tags: this.state.selectedTags };
-        this.props.onSubmit(formValues);
+        const formData = new FormData();
+        formData.append('title', this.state.title);
+        formData.append('body', this.state.body);
+        formData.append('tags', this.state.selectedTags);
+        formData.append('coverImage', this.state.coverImage);
+        // console.log(formData.get("title"));
+        this.props.onSubmit(formData);
     };
 
     handleTitle = (e) => {
@@ -41,6 +47,11 @@ class PostsForm extends React.Component {
         selected = selected || [];
         console.log(selected);
         this.setState({ selectedTags: selected });
+    };
+    
+    handleFileChange = (e) => {
+      console.log(e.target.files);
+      this.setState({ coverImage: e.target.files[0] });
     };
 
     render() {
@@ -74,6 +85,10 @@ class PostsForm extends React.Component {
                             loadOptions={this.promiseOptions}
                         />
 
+                    </FormGroup>
+                    
+                    <FormGroup>
+                        <input type={'file'} onChange={this.handleFileChange} />
                     </FormGroup>
 
 

@@ -16,7 +16,10 @@ const store = configureStore(history, initialState);
 const USER_AUTHENTICATED = 'USER_AUTHENTICATED';
 const rootElement = document.getElementById('root');
 
-localStorage.getItem('jwtoken') ? store.dispatch({type: USER_AUTHENTICATED}) : null;
+const userId = localStorage.getItem("userId");
+localStorage.getItem('jwtoken') 
+	? store.dispatch({type: USER_AUTHENTICATED, payload: userId}) 
+	: null;
 
 ReactDOM.render(
 	<Provider store={store}>

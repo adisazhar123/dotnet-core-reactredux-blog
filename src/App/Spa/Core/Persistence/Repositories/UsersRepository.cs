@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -6,7 +7,6 @@ using AdisBlog.Core.Persistence.Dtos;
 using AdisBlog.Core.Persistence.Requests;
 using AdisBlog.Data;
 using AdisBlog.Models;
-using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 
 namespace AdisBlog.Core.Persistence.Repositories
@@ -14,12 +14,10 @@ namespace AdisBlog.Core.Persistence.Repositories
     public class UsersRepository
     {
         private readonly BlogsDbContext _context;
-        private readonly IMapper _mapper;
         
-        public UsersRepository(BlogsDbContext context, IMapper mapper)
+        public UsersRepository(BlogsDbContext context)
         {
             _context = context;
-            _mapper = mapper;
         }
         public User FindUserLogin(string username)
         {
@@ -30,12 +28,22 @@ namespace AdisBlog.Core.Persistence.Repositories
         {
             return await _context.Users
                 .Include(u => u.Posts)
+                .Include(u => u.Followings)
                 .Select(u => new GetUserPostsVm
                 {
                     Username = u.Username,
-                    Posts = u.Posts
+                    Posts = u.Posts,
+                    UserId = u.Id,
+                    Followings = u.Followings
                 })
                 .SingleOrDefaultAsync(u => u.Username == username);
+        }
+
+        public async Task<List<Following>> GetMyFollowingsAsync(Guid userId)
+        {
+            return await _context.Followings
+                .Where(f => f.UserId == userId)
+                .ToListAsync();
         }
 
         public async Task<IEnumerable<FavoritePostDto>> GetUserFavoritePosts(string username)
@@ -48,7 +56,7 @@ namespace AdisBlog.Core.Persistence.Repositories
 
             var posts = await _context.Posts
                 .Where(p => favoritedPostIds.Contains(p.Id))
-                .Select(p => new FavoritePostDto()
+                .Select(p => new FavoritePostDto
                 {
                     Body = p.Body,
                     Id = p.Id,
@@ -85,6 +93,20 @@ namespace AdisBlog.Core.Persistence.Repositories
                 Success = true,
                 Message = "Account registration successful."
             };
+        }
+
+        public async Task<User> FollowUserAsync(Guid currentUserId, Guid followingUserId)
+        {
+            var currentUser = await _context.Users.FirstOrDefaultAsync(user => user.Id == currentUserId);
+            currentUser.Followings = new List<Following>();
+            var followingUser = new Following
+            {
+                UserId = currentUserId,
+                FollowingUserId = followingUserId
+            };
+            currentUser.Followings.Add(followingUser);
+            await _context.SaveChangesAsync();
+            return await _context.Users.FirstOrDefaultAsync(user => user.Id == followingUserId);
         }
     }
 }

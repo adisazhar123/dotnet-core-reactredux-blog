@@ -12,7 +12,7 @@ export const getPosts = (page = 1) => async (dispatch) => {
 
 export const createPost = (post) => async (dispatch) => {
 	try {
-		const response = await posts.post(`/users/${USER_ID}/posts`, { ...post });
+		const response = await posts.post(`/users/${USER_ID}/posts`, post, { headers: {'content-type': 'multipart/form-data' } });
 		dispatch({ type: TYPE.CREATE_POST, payload: response.data });
 		history.push(`/posts/${response.data.id}`);
 		// dispatch(reset('postsForm'));

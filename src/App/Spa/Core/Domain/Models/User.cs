@@ -11,6 +11,7 @@ namespace AdisBlog.Models
         
         public virtual IList<Post> Posts { get; set; }
         public virtual IList<FavoritePost> FavoritePosts { get; set; }
+        public virtual IList<Following> Followings { get; set; }
 
     }
 }

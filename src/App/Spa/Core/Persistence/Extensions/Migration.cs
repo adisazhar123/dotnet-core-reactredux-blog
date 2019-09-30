@@ -46,6 +46,11 @@ namespace AdisBlog.Core.Persistence.Extensions
                     .WithOne(f => f.User)
                     .HasForeignKey(f => f.UserId)
                     .IsRequired();
+
+                entity.HasMany(u => u.Followings)
+                    .WithOne(f => f.User)
+                    .HasForeignKey(f => f.UserId)
+                    .IsRequired();
             });
 
             modelBuilder.Entity<Post>().ToTable("posts");
@@ -55,6 +60,7 @@ namespace AdisBlog.Core.Persistence.Extensions
                 entity.Property(p => p.Id).HasColumnName("id");
                 entity.Property(p => p.Title).HasColumnName("title").IsRequired();
                 entity.Property(p => p.Body).HasColumnName("body").IsRequired();
+                entity.Property(p => p.CoverImagePath).HasColumnName("cover_image_path").IsRequired(false);
                 entity.Property(p => p.CreatedAt).HasColumnName("created_at");
                 entity.Property(p => p.UpdatedAt).HasColumnName("updated_at");
                 entity.Property(p => p.UserId).HasColumnName("user_id");
@@ -125,6 +131,14 @@ namespace AdisBlog.Core.Persistence.Extensions
                 entity.HasOne(pt => pt.Tag)
                     .WithMany(t => t.PostTags)
                     .HasForeignKey(pt => pt.TagId);
+            });
+
+            modelBuilder.Entity<Following>().ToTable("followings");
+            modelBuilder.Entity<Following>(entity =>
+            {
+                entity.HasKey(f => f.Id);
+                entity.Property(f => f.UserId).HasColumnName("user_id");
+                entity.Property(f => f.FollowingUserId).HasColumnName("following_user_id");
             });
         }
     }
