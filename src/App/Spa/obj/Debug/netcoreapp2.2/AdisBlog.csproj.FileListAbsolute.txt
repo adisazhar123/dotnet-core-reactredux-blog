@@ -6,7 +6,6 @@
 /home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/App/Spa/bin/Debug/netcoreapp2.2/AdisBlog.Views.dll
 /home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/App/Spa/bin/Debug/netcoreapp2.2/AdisBlog.Views.pdb
 /home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.csprojAssemblyReference.cache
-/home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.csproj.CoreCompileInputs.cache
 /home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.RazorAssemblyInfo.cache
 /home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.RazorAssemblyInfo.cs
 /home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.AssemblyInfoInputs.cache
@@ -14,11 +13,14 @@
 /home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.TagHelpers.input.cache
 /home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.TagHelpers.output.cache
 /home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.RazorCoreGenerate.cache
-/home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/App/Spa/obj/Debug/netcoreapp2.2/Razor/Pages/Error.g.cshtml.cs
-/home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/App/Spa/obj/Debug/netcoreapp2.2/Razor/Pages/_ViewImports.g.cshtml.cs
 /home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.RazorTargetAssemblyInfo.cache
 /home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.RazorTargetAssemblyInfo.cs
 /home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.Views.pdb
 /home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.dll
 /home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.pdb
 /home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/App/Spa/obj/Debug/netcoreapp2.2/AdisBlog.csproj.CopyComplete
+/home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/App/Spa/bin/Debug/netcoreapp2.2/appsettings.Development.json
+/home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/App/Spa/bin/Debug/netcoreapp2.2/appsettings.json
+/home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/App/Spa/bin/Debug/netcoreapp2.2/Properties/launchSettings.json
+/home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/App/Spa/obj/Debug/netcoreapp2.2/Razor/Pages/Error.cshtml.g.cs
+/home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/App/Spa/obj/Debug/netcoreapp2.2/Razor/Pages/_ViewImports.cshtml.g.cs
