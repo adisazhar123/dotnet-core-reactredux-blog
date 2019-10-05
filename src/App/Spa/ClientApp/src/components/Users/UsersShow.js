@@ -7,7 +7,8 @@ import {connect} from "react-redux";
 import {
 	getUserFavoritePosts, 
 	getUserPosts,
-	followUser
+	followUser,
+	unFollowUser
 } from "../../actions/users";
 
 import './UsersShow.css'
@@ -35,15 +36,27 @@ class UsersShow extends React.Component {
 		const followingUserId = this.props.openedUserId;
 		this.props.followUser(followingUserId);
 	};
+
+	unFollowUser = () => {
+		const followingUserId = this.props.openedUserId;
+		this.props.unFollowUser(followingUserId); 
+	};
+	
+	showFollowUserButton = () => {
+		if (! this.props.openedUserId) return false;
+		return this.props.auth.userId !== this.props.openedUserId;
+	};
 	
 	renderHeader = () => {
+		// console.log(this.props.auth);
 		return (
 			<div className={'users-header mb-3'}>
 				<Container>
 					<div className="profile">
 						<h4>{this.props.username}</h4>
-						{  this.props.isFollowing === false ? <Button onClick={this.followUser}>+ Follow @{this.props.username}</Button>  
-							: <Button>- Unfollow @{this.props.username}</Button> }
+						
+						{this.showFollowUserButton() ? this.props.isFollowing === false ? <Button onClick={this.followUser}>+ Follow @{this.props.username}</Button>
+							: <Button onClick={this.unFollowUser}>- Unfollow @{this.props.username}</Button> : null }
 					</div>
 				</Container>
 			</div>
@@ -101,7 +114,7 @@ class UserPosts extends React.Component {
 	}
 	
 	componentDidMount = () => {
-		console.log(this.props);
+		// console.log(this.props);
 		const userName = this.props.match.params.userName;
 		this.callGetPosts(userName);
 	};
@@ -120,7 +133,7 @@ class UserPosts extends React.Component {
 	};
 
 	render() {
-		console.log(this.props);
+		// console.log(this.props);
 		const posts = this.props.userPosts;
 		return (
 			<TabContent activeTab={'1'}>
@@ -165,11 +178,12 @@ const mapStateToProps = (state) => {
 		userPosts: Object.values(state.users.posts),
 		openedUserId: state.users.id,
 		isFollowing: state.users.isFollowing,
+		auth: state.auth
 	};
 };
 
 const mapDispatchToProps = {
-	getUserPosts, getUserFavoritePosts, followUser
+	getUserPosts, getUserFavoritePosts, followUser, unFollowUser
 };
 
 connect(mapStateToProps, mapDispatchToProps)(UserPosts);

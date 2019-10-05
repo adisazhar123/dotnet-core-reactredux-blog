@@ -106,7 +106,18 @@ namespace AdisBlog.Core.Persistence.Repositories
             };
             currentUser.Followings.Add(followingUser);
             await _context.SaveChangesAsync();
+         
             return await _context.Users.FirstOrDefaultAsync(user => user.Id == followingUserId);
+        }
+
+        public async Task UnFollowUserAsync(Guid currentUserId, Guid followingUserId)
+        {
+            var following = await _context.Followings.Where(f => f.UserId == currentUserId)
+                .Where(f => f.FollowingUserId == followingUserId)
+                .SingleOrDefaultAsync();
+
+            _context.Followings.Remove(following);
+            await _context.SaveChangesAsync();
         }
     }
 }

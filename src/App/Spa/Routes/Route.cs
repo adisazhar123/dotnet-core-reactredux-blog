@@ -15,5 +15,6 @@ namespace AdisBlog.Routes
         public const string UsersLogout = "logout";
 
         public const string UsersFollow = "users/follow";
+        public const string UsersUnFollow = "users/unfollow";
     }
 }

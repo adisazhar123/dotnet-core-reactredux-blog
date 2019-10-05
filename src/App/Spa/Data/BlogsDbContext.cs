@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using AdisBlog.Core.Persistence.Extensions;
@@ -21,8 +22,15 @@ namespace AdisBlog.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
+            var cascadeFKs = modelBuilder.Model.GetEntityTypes()
+                .SelectMany(t => t.GetForeignKeys())
+                .Where(fk => !fk.IsOwnership && fk.DeleteBehavior == DeleteBehavior.Cascade);
+
+            foreach (var fk in cascadeFKs)
+                fk.DeleteBehavior = DeleteBehavior.Restrict;
+            
             modelBuilder.CreateMigrations();
+            base.OnModelCreating(modelBuilder);
         }
 
         public override int SaveChanges(bool acceptAllChangesOnSuccess)

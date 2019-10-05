@@ -11,6 +11,7 @@
           <e p="Spa" t="IncludeRecursive">
             <e p=".directory" t="Include" />
             <e p=".gitignore" t="Include" />
+            <e p=".gitignore.save" t="Include" />
             <e p="AdisBlog.csproj" t="IncludeRecursive" />
             <e p="ClientApp" t="Include">
               <e p=".env" t="Include" />
@@ -217,6 +218,8 @@
               <e p="20190913140752_CoverImagePath Column.cs" t="Include" />
               <e p="20190913141037_CoverImagePath Column(2).Designer.cs" t="Include" />
               <e p="20190913141037_CoverImagePath Column(2).cs" t="Include" />
+              <e p="20191005125440_turn off cascade delete.Designer.cs" t="Include" />
+              <e p="20191005125440_turn off cascade delete.cs" t="Include" />
               <e p="BlogsDbContextModelSnapshot.cs" t="Include" />
             </e>
             <e p="Pages" t="Include">

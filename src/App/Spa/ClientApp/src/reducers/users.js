@@ -39,7 +39,13 @@ export default (state, action) => {
 				usersFollow: {
 					success: true,
 					message: 'Successfully followed user.'
-				}
+				},
+				isFollowing: true
+			};
+		case TYPE.USERS_UNFOLLOW_SUCCESS:
+			return {
+				...state,
+				isFollowing: false
 			};
 		default:
 			return state;

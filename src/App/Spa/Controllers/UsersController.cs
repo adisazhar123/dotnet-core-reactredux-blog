@@ -15,12 +15,12 @@ namespace AdisBlog.Controllers
     public class UsersController : Controller
     {
         private readonly UsersRepository _repository;
-        
+
         public UsersController(UsersRepository repository)
         {
             _repository = repository;
         }
-        
+
         [HttpPost(Route.UsersFollow)]
         public async Task<IActionResult> FollowUserAsync([FromBody] FollowUser following)
         {
@@ -28,8 +28,23 @@ namespace AdisBlog.Controllers
             {
                 return BadRequest(ModelState);
             }
+
             var currentUGuid = Guid.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
             await _repository.FollowUserAsync(currentUGuid, following.FollowingUserId);
+
+            return Ok();
+        }
+        
+        [HttpPost(Route.UsersUnFollow)]
+        public async Task<IActionResult> UnFollowUserAsync([FromBody] FollowUser following)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var currentUGuid = Guid.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
+            await _repository.UnFollowUserAsync(currentUGuid, following.FollowingUserId);
 
             return Ok();
         }

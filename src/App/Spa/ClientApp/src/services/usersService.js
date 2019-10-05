@@ -21,7 +21,11 @@ const usersService = {
 	
 	followUser: async(followingUserId) => {
 		return await api.post('/follow', { followingUserId });
-	}
+	},
+	
+	unFollowUser: async(followingUserId) => {
+		return await api.post('/unfollow', { followingUserId });	
+	},
 	
 };
 

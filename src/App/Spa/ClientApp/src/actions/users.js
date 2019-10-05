@@ -58,3 +58,18 @@ export const followUser = (followingUserId) => async (dispatch) => {
 		}
 	}
 };
+
+export const unFollowUser = (followingUserId) => async (dispatch) => {
+	try {
+		await usersService.unFollowUser(followingUserId);
+		dispatch({
+			type: TYPE.USERS_UNFOLLOW_SUCCESS
+		});
+	} catch (e) {
+		if (e.response) {
+			dispatch({
+				type: TYPE.ERROR_GENERIC, payload: e.response.status
+			});
+		}
+	}
+};

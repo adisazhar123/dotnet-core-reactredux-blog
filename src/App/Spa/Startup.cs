@@ -62,6 +62,7 @@ namespace AdisBlog
                 );
             
             services.AddDbContext<BlogsDbContext>(options => options.UseMySql("Server=localhost;Database=adis_blog_react;User=adis;Password=;" ));
+//            services.AddDbContext<BlogsDbContext>(options => options.UseMySql("Server=192.168.33.10;Port=6033;Database=playground;User=playgrounduser;Password=playgroundpassword;" ));
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
