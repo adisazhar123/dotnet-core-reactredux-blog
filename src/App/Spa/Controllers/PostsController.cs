@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Security.Claims;
 using System.Threading.Tasks;
@@ -12,6 +13,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Hosting;
+using Newtonsoft.Json;
 
 namespace AdisBlog.Controllers
 {
@@ -43,9 +45,9 @@ namespace AdisBlog.Controllers
         [ProducesResponseType(StatusCodes.Status201Created)]
         public async Task<IActionResult> CreatePostAsync(Guid userId, [FromForm] CreatePost post)
         {
-//            return Json(post);
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
+            var tags = JsonConvert.DeserializeObject<List<SelectTag>>(post.Tags);
             var createdPost = await _repo.CreatePostAsync(
                 new Post
                 {
@@ -53,7 +55,7 @@ namespace AdisBlog.Controllers
                     Body = post.Body,
                     UserId = userId
                 },
-                post.Tags
+                tags
             );
 
             if (post.CoverImage != null)
@@ -62,9 +64,7 @@ namespace AdisBlog.Controllers
                 var uploads = Path.Combine(_hostingEnvironment.ContentRootPath, "Storage/Uploads");
                 var filePath = Path.Combine(uploads, uniqueFileName);
                 await post.CoverImage.CopyToAsync(new FileStream(filePath, FileMode.Create));
-                return Json(Url.Content(filePath));
             }
-            
 
             return Created(nameof(Route.PostsCreate), createdPost);
         }

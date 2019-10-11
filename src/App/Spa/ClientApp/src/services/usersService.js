@@ -4,7 +4,7 @@ import axios from 'axios'
 const TOKEN = localStorage.getItem('jwtoken');
 
 const api = axios.create({
-	baseURL: 'https://localhost:5001/api/users',
+	baseURL: 'http://192.168.16.106/api/users',
 	headers: {
 		Authorization: `Bearer ${TOKEN}`
 	}

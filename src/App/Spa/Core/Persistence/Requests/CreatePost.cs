@@ -12,9 +12,8 @@ namespace AdisBlog.Core.Persistence.Requests
         public string Title { get; set; }
         [Required]
         public string Body { get; set; }
-
         public IFormFile CoverImage { get; set; }
-        public List<SelectTag> Tags { get; set; } 
+        public string Tags { get; set; }
     }
 
     public class SelectTag

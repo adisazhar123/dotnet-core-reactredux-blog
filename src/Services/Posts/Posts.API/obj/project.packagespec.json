@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/Services/Posts/Posts.API/Posts.API.csproj",
+    "projectUniqueName": "/home/adisazhar/projects/dotnet/ReactReduxAdisBlog/src/Services/Posts/Posts.API/Posts.API.csproj",
     "projectName": "Posts.API",
-    "projectPath": "/home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/Services/Posts/Posts.API/Posts.API.csproj",
-    "outputPath": "/home/adis/projects/dotnet/dotnet-core-reactredux-blog/src/Services/Posts/Posts.API/obj/",
+    "projectPath": "/home/adisazhar/projects/dotnet/ReactReduxAdisBlog/src/Services/Posts/Posts.API/Posts.API.csproj",
+    "outputPath": "/home/adisazhar/projects/dotnet/ReactReduxAdisBlog/src/Services/Posts/Posts.API/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/share/dotnet/sdk/NuGetFallbackFolder"

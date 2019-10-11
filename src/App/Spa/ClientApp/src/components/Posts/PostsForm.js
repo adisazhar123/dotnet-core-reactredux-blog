@@ -21,9 +21,8 @@ class PostsForm extends React.Component {
         const formData = new FormData();
         formData.append('title', this.state.title);
         formData.append('body', this.state.body);
-        formData.append('tags', this.state.selectedTags);
+        formData.append('tags',  JSON.stringify(this.state.selectedTags));
         formData.append('coverImage', this.state.coverImage);
-        // console.log(formData.get("title"));
         this.props.onSubmit(formData);
     };
 

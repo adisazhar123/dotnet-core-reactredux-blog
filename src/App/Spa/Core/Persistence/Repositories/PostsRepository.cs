@@ -51,10 +51,10 @@ namespace AdisBlog.Core.Persistence.Repositories
             getAllPostsVm.Posts = posts;
             getAllPostsVm.CurrentPage = page;
             getAllPostsVm.TotalPages = totalPages;
-            getAllPostsVm.NextPageUrl = page < totalPages ? "https://localhost:5001/api/posts?page=" + (page + 1)
-                : "https://localhost:5001/api/posts?page=" + page;
-            getAllPostsVm.PrevPageUrl = page > 1  ? "https://localhost:5001/api/posts?page=" + (page - 1)
-                : "https://localhost:5001/api/posts?page=" + page;
+            getAllPostsVm.NextPageUrl = page < totalPages ? "192.168.16.106/api/posts?page=" + (page + 1)
+                : "192.168.16.106/api/posts?page=" + page;
+            getAllPostsVm.PrevPageUrl = page > 1  ? "192.168.16.106/api/posts?page=" + (page - 1)
+                : "192.168.16.106/api/posts?page=" + page;
 
             return getAllPostsVm;
         }

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
     <e p="$USER_HOME$/.Rider2019.1/system/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.Rider2019.1/system/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_ReactReduxAdisBlog.-2134102999.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.1/system/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_ReactReduxAdisBlog.-919006048.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p=".git/info/exclude" t="IncludeRecursive" />
       <e p="ReactReduxAdisBlog.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="src" t="Include">
@@ -220,6 +222,10 @@
               <e p="20190913141037_CoverImagePath Column(2).cs" t="Include" />
               <e p="20191005125440_turn off cascade delete.Designer.cs" t="Include" />
               <e p="20191005125440_turn off cascade delete.cs" t="Include" />
+              <e p="20191006152938_test.Designer.cs" t="Include" />
+              <e p="20191006152938_test.cs" t="Include" />
+              <e p="20191008082218_update.Designer.cs" t="Include" />
+              <e p="20191008082218_update.cs" t="Include" />
               <e p="BlogsDbContextModelSnapshot.cs" t="Include" />
             </e>
             <e p="Pages" t="Include">
@@ -238,10 +244,8 @@
             <e p="Startup.cs" t="Include" />
             <e p="Storage" t="Include">
               <e p="Uploads" t="Include">
-                <e p="animal.jpg" t="Include" />
-                <e p="daylight-environment-forest-459225_17f4.jpg" t="Include" />
-                <e p="field-hd-wallpaper-landscape-66874_1537.jpg" t="Include" />
-                <e p="field-hd-wallpaper-landscape-66874_5ea0.jpg" t="Include" />
+                <e p="display_unreviewed_expenses_edab.png" t="Include" />
+                <e p="frogg2_9fc2.png" t="Include" />
               </e>
             </e>
             <e p="appsettings.Development.json" t="Include" />
@@ -257,10 +261,8 @@
             <e p="wwwroot" t="Include">
               <e p="Storage" t="Include">
                 <e p="Uploads" t="Include">
-                  <e p="animal.jpg" t="Include" />
-                  <e p="daylight-environment-forest-459225_17f4.jpg" t="Include" />
-                  <e p="field-hd-wallpaper-landscape-66874_1537.jpg" t="Include" />
-                  <e p="field-hd-wallpaper-landscape-66874_5ea0.jpg" t="Include" />
+                  <e p="display_unreviewed_expenses_edab.png" t="Include" />
+                  <e p="frogg2_9fc2.png" t="Include" />
                 </e>
               </e>
               <e p="images" t="Include" />

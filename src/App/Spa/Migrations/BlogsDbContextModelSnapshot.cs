@@ -163,23 +163,23 @@ namespace AdisBlog.Migrations
                         new
                         {
                             Id = new Guid("0f8fad5b-d3cb-469f-a165-71267728950e"),
-                            CreatedAt = new DateTime(2019, 10, 5, 19, 54, 39, 733, DateTimeKind.Local).AddTicks(6220),
+                            CreatedAt = new DateTime(2019, 10, 8, 15, 22, 18, 559, DateTimeKind.Local).AddTicks(4484),
                             Title = "Computer Science",
-                            UpdatedAt = new DateTime(2019, 10, 5, 19, 54, 39, 733, DateTimeKind.Local).AddTicks(6240)
+                            UpdatedAt = new DateTime(2019, 10, 8, 15, 22, 18, 559, DateTimeKind.Local).AddTicks(4502)
                         },
                         new
                         {
                             Id = new Guid("0f8fad5b-d3cb-469f-a165-712677284194"),
-                            CreatedAt = new DateTime(2019, 10, 5, 19, 54, 39, 733, DateTimeKind.Local).AddTicks(6268),
+                            CreatedAt = new DateTime(2019, 10, 8, 15, 22, 18, 559, DateTimeKind.Local).AddTicks(4533),
                             Title = "Sports",
-                            UpdatedAt = new DateTime(2019, 10, 5, 19, 54, 39, 733, DateTimeKind.Local).AddTicks(6270)
+                            UpdatedAt = new DateTime(2019, 10, 8, 15, 22, 18, 559, DateTimeKind.Local).AddTicks(4536)
                         },
                         new
                         {
                             Id = new Guid("8914ad5b-d3cb-469f-a165-71267728950e"),
-                            CreatedAt = new DateTime(2019, 10, 5, 19, 54, 39, 733, DateTimeKind.Local).AddTicks(6278),
+                            CreatedAt = new DateTime(2019, 10, 8, 15, 22, 18, 559, DateTimeKind.Local).AddTicks(4546),
                             Title = "Lifestyle",
-                            UpdatedAt = new DateTime(2019, 10, 5, 19, 54, 39, 733, DateTimeKind.Local).AddTicks(6280)
+                            UpdatedAt = new DateTime(2019, 10, 8, 15, 22, 18, 559, DateTimeKind.Local).AddTicks(4548)
                         });
                 });
 
@@ -215,19 +215,19 @@ namespace AdisBlog.Migrations
                         new
                         {
                             Id = new Guid("0f8fad5b-d9cb-469f-a165-70867728950e"),
-                            CreatedAt = new DateTime(2019, 10, 5, 19, 54, 39, 617, DateTimeKind.Local).AddTicks(8698),
-                            Password = "$2a$10$UwdIHQ90SUPzZRXeeE1KkeRJ2MeQm1O8KvPZMmYidLPr/AS18tARy",
+                            CreatedAt = new DateTime(2019, 10, 8, 15, 22, 18, 435, DateTimeKind.Local).AddTicks(990),
+                            Password = "$2a$10$R3Pg4K8EDaqSXYoMxjJfvuUVl8LOZN8.w4trZqUOgEeSVcvYMJ7BW",
                             Role = "user",
-                            UpdatedAt = new DateTime(2019, 10, 5, 19, 54, 39, 632, DateTimeKind.Local).AddTicks(3071),
+                            UpdatedAt = new DateTime(2019, 10, 8, 15, 22, 18, 444, DateTimeKind.Local).AddTicks(3356),
                             Username = "adis"
                         },
                         new
                         {
                             Id = new Guid("7c9e6679-7425-40de-944b-e07fc1f90ae7"),
-                            CreatedAt = new DateTime(2019, 10, 5, 19, 54, 39, 713, DateTimeKind.Local).AddTicks(5674),
-                            Password = "$2a$10$zi0xHnz1D5M7uqxdtMz10.bnXpezmgJlGCZtjeCdeewTVRBbQ3b3y",
+                            CreatedAt = new DateTime(2019, 10, 8, 15, 22, 18, 536, DateTimeKind.Local).AddTicks(6869),
+                            Password = "$2a$10$qC1SDle2Gh.NUKZslUNGq.AHau0NOOerYk2O.omk/ggq079yt/OrG",
                             Role = "admin",
-                            UpdatedAt = new DateTime(2019, 10, 5, 19, 54, 39, 713, DateTimeKind.Local).AddTicks(5696),
+                            UpdatedAt = new DateTime(2019, 10, 8, 15, 22, 18, 536, DateTimeKind.Local).AddTicks(6887),
                             Username = "admin"
                         });
                 });
