@@ -76,7 +76,7 @@
 
   <ItemGroup>
     <Folder Include="Core\Persistence\UseCase" />
-    <Folder Include="wwwroot\images" />
+    <Folder Include="Storage\Uploads" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

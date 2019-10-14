@@ -82,6 +82,8 @@ class PostsShow extends React.Component {
     const postId = this.props.posts.id;
     this.props.favoritePost(postId);
   };
+  
+  generateImgUrl = (name) => `http://192.168.16.106/Storage/Uploads/${name}`;
 
   renderBody = (post) => {
     const body = post === undefined ? 'Loading ...' : post.body;
@@ -91,6 +93,7 @@ class PostsShow extends React.Component {
           <Container>
             <PostBody>
               {body}
+              { post.coverImage != null ? (<img src={this.generateImgUrl()} alt=""/>) : null }
             </PostBody>
             {
               this.props.loggedInUserId !== this.props.postOwnerId

@@ -243,10 +243,7 @@
             </e>
             <e p="Startup.cs" t="Include" />
             <e p="Storage" t="Include">
-              <e p="Uploads" t="Include">
-                <e p="display_unreviewed_expenses_edab.png" t="Include" />
-                <e p="frogg2_9fc2.png" t="Include" />
-              </e>
+              <e p="Uploads" t="Include" />
             </e>
             <e p="appsettings.Development.json" t="Include" />
             <e p="appsettings.json" t="Include" />
@@ -260,39 +257,15 @@
             </e>
             <e p="wwwroot" t="Include">
               <e p="Storage" t="Include">
-                <e p="Uploads" t="Include">
-                  <e p="display_unreviewed_expenses_edab.png" t="Include" />
-                  <e p="frogg2_9fc2.png" t="Include" />
-                </e>
+                <e p="Uploads" t="Include" />
               </e>
-              <e p="images" t="Include" />
             </e>
           </e>
         </e>
         <e p="Services" t="Include">
           <e p="Posts" t="Include">
             <e p="Posts.API" t="IncludeRecursive">
-              <e p=".directory" t="Include" />
-              <e p=".gitignore" t="Include" />
-              <e p="Controllers" t="Include">
-                <e p="ValuesController.cs" t="Include" />
-              </e>
               <e p="Posts.API.csproj" t="IncludeRecursive" />
-              <e p="Program.cs" t="Include" />
-              <e p="Properties" t="Include">
-                <e p="launchSettings.json" t="Include" />
-              </e>
-              <e p="Startup.cs" t="Include" />
-              <e p="appsettings.Development.json" t="Include" />
-              <e p="appsettings.json" t="Include" />
-              <e p="bin" t="ExcludeRecursive" />
-              <e p="obj" t="ExcludeRecursive">
-                <e p="Debug" t="Include">
-                  <e p="netcoreapp2.2" t="Include">
-                    <e p="Posts.API.AssemblyInfo.cs" t="Include" />
-                  </e>
-                </e>
-              </e>
             </e>
           </e>
         </e>

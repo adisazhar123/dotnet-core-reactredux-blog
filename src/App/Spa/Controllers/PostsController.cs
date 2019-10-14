@@ -48,23 +48,25 @@ namespace AdisBlog.Controllers
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
             var tags = JsonConvert.DeserializeObject<List<SelectTag>>(post.Tags);
-            var createdPost = await _repo.CreatePostAsync(
-                new Post
-                {
-                    Title = post.Title,
-                    Body = post.Body,
-                    UserId = userId
-                },
-                tags
-            );
-
+            string coverImagePath = null;
             if (post.CoverImage != null)
             {
                 var uniqueFileName = GetUniqueFileName(post.CoverImage.FileName);
                 var uploads = Path.Combine(_hostingEnvironment.ContentRootPath, "Storage/Uploads");
                 var filePath = Path.Combine(uploads, uniqueFileName);
                 await post.CoverImage.CopyToAsync(new FileStream(filePath, FileMode.Create));
+                coverImagePath = uniqueFileName;
             }
+            var createdPost = await _repo.CreatePostAsync(
+                new Post
+                {
+                    Title = post.Title,
+                    Body = post.Body,
+                    UserId = userId,
+                    CoverImagePath = coverImagePath
+                },
+                tags
+            );
 
             return Created(nameof(Route.PostsCreate), createdPost);
         }
